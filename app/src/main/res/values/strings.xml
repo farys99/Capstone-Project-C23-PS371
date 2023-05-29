@@ -21,4 +21,9 @@
     <string name="title_description">Skin Problem Description</string>
     <string name="btn_tips">Tips for You</string>
     <string name="btn_product_recomendation">Product Recomendation</string>
+    <string name="tv_product_recommendation">Product Recomendation</string>
+    <string name="daily_tips_title">Daily Tips for You</string>
+    <string name="title_reason">Reason Your Skin Problem</string>
+    <string name="prevent_title">Prevent Your Skin Problem</string>
+    <string name="treat_title">Treat Your Skin Problem</string>
 </resources>
