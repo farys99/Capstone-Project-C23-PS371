@@ -16,4 +16,9 @@
     <string name="add_story">Add Picture</string>
     <string name="gallery">Gallery</string>
     <string name="camera">Camera</string>
+    <string name="tv_summary">Summary</string>
+    <string name="title_result">Your Skin Problem</string>
+    <string name="title_description">Skin Problem Description</string>
+    <string name="btn_tips">Tips for You</string>
+    <string name="btn_product_recomendation">Product Recomendation</string>
 </resources>
