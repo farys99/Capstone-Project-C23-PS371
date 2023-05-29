@@ -6,4 +6,7 @@
     </style>
 
     <style name="Theme.DermaDetect" parent="Base.Theme.DermaDetect" />
+    <style name="Header">
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

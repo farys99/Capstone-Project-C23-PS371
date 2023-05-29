@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DermaDetect</string>
+    <string name="text_content_desc_skin_problems">image skin problem\n</string>
+    <string name="title_skin_problems">skin problem</string>
+    <string name="detail_skin_problems">check your skin problem</string>
+    <string name="text_content_desc_icon_arrow">ini panah</string>
+    <string name="title_article">Article Related</string>
 </resources>
