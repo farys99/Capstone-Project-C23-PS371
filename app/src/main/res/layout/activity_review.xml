@@ -76,6 +76,7 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="@string/send"
+                style="@style/Button"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="14sp"
