@@ -1,4 +1,4 @@
-package com.example.dermadetect
+package com.example.dermadetect.ui
 
 import android.content.Context
 import android.content.Intent

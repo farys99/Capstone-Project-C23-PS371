@@ -13,28 +13,28 @@
         android:theme="@style/Theme.DermaDetect"
         tools:targetApi="31">
         <activity
-            android:name=".DailyTipsActivity"
+            android:name=".ui.DailyTipsActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".ui.SplashActivity"
             android:exported="false" />
         <activity
-            android:name=".ProductRecomendationActivity"
+            android:name=".ui.ProductRecomendationActivity"
             android:exported="false" />
         <activity
-            android:name=".SummaryActivity"
+            android:name=".ui.SummaryActivity"
             android:exported="false" />
         <activity
-            android:name=".ReviewActivity"
+            android:name=".ui.ReviewActivity"
             android:exported="false" />
         <activity
-            android:name=".PostingActivity"
+            android:name=".ui.PostingActivity"
             android:exported="false" />
         <activity
-            android:name=".CameraActivity"
+            android:name=".ui.CameraActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

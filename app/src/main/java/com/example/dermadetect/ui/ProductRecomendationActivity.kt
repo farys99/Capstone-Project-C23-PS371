@@ -1,7 +1,8 @@
-package com.example.dermadetect
+package com.example.dermadetect.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.dermadetect.R
 
 class ProductRecomendationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
