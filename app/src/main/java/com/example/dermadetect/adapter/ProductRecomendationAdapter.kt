@@ -19,9 +19,6 @@ class ProductRecomendationAdapter : RecyclerView.Adapter<ProductRecomendationAda
         listProduct.addAll(product)
         notifyDataSetChanged()
     }
-
-
-
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
