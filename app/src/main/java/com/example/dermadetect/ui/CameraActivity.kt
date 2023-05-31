@@ -65,9 +65,6 @@ class CameraActivity : AppCompatActivity() {
 
     }
 
-
-
-
     companion object{
         const val FRONT_CAMERA = "front_camera"
         const val PICTURE = "picture"
