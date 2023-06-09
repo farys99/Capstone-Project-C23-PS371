@@ -4,16 +4,31 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.dermadetect.R
+import com.example.dermadetect.adapter.ArticleAdapter
+import com.example.dermadetect.data.localArticle.Article
+import com.example.dermadetect.data.localArticle.DataArticle
 import com.example.dermadetect.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+    private lateinit var rvArticle : RecyclerView
+    private var list : ArrayList<Article> = arrayListOf()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        rvArticle = findViewById(R.id.rv_article)
+        rvArticle.setHasFixedSize(true)
+
+        list.addAll(DataArticle.listData)
+        rvArticle.layoutManager = LinearLayoutManager(this)
+        val listArticleAdapter = ArticleAdapter(list)
+        rvArticle.adapter = listArticleAdapter
 
         binding.skinProblemsDetection.setOnClickListener{
             skinDetectionProblem(SKIN_PROBLEM)
