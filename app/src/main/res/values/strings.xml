@@ -26,4 +26,7 @@
     <string name="title_reason">Reason Your Skin Problem</string>
     <string name="prevent_title">Prevent Your Skin Problem</string>
     <string name="treat_title">Treat Your Skin Problem</string>
+    <string name="article_image">article image</string>
+    <string name="description">description article</string>
+    <string name="headline_article">headline article</string>
 </resources>

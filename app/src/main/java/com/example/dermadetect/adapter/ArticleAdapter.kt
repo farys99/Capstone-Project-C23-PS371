@@ -1,5 +1,6 @@
 package com.example.dermadetect.adapter
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.dermadetect.R
 import com.example.dermadetect.data.localArticle.Article
+import com.example.dermadetect.ui.DetailArticleActivity
 import org.w3c.dom.Text
 
 class ArticleAdapter(private val listArticle : ArrayList<Article>): RecyclerView.Adapter<ArticleAdapter.ListViewHolder>(){
@@ -28,6 +30,17 @@ class ArticleAdapter(private val listArticle : ArrayList<Article>): RecyclerView
         holder.tvHeadline.text = args.headline
         holder.tvDate.text = args.date
         holder.tvAuthor.text = args.author
+
+        holder.itemView.setOnClickListener {
+            val intent = Intent(context, DetailArticleActivity::class.java)
+            intent.putExtra(DetailArticleActivity.EXTRA_HEADLINE, args.headline)
+            intent.putExtra(DetailArticleActivity.EXTRA_DESCRIPTION, args.description)
+            intent.putExtra(DetailArticleActivity.EXTRA_DATE, args.date)
+            intent.putExtra(DetailArticleActivity.EXTRA_AUTHOR, args.author)
+            intent.putExtra(DetailArticleActivity.EXTRA_IMAGE, args.image)
+            context.startActivity(intent)
+
+        }
     }
 
     override fun getItemCount(): Int {
