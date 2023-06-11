@@ -29,4 +29,6 @@
     <string name="article_image">article image</string>
     <string name="description">description article</string>
     <string name="headline_article">headline article</string>
+    <string name="unable_to_start_the_camera">Unable to start the camera</string>
+    <string name="unable_to_capture_photo">Unable to capture a photo</string>
 </resources>
