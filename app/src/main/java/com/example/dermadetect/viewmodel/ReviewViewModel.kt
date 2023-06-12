@@ -4,6 +4,7 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.dermadetect.data.response.UpResponse
 import com.example.dermadetect.data.response.UploadResponse
 import com.example.dermadetect.data.retrofit.ApiConfig
 import com.example.dermadetect.helper.Event
@@ -24,27 +25,27 @@ class ReviewViewModel : ViewModel() {
     private val _isUploadSuccess = MutableLiveData<Event<Boolean>>()
     val isUploadSuccess: LiveData<Event<Boolean>> = _isUploadSuccess
 
-    private val _idDetection = MutableLiveData<String?>()
-    val idDetection: LiveData<String?> = _idDetection
+//    private val _idDetection = MutableLiveData<String?>()
+//    val idDetection: LiveData<String?> = _idDetection
 
     fun uploadPhoto(
         image: MultipartBody.Part,
-        typeDetection: RequestBody
+//        typeDetection: RequestBody
     ) {
         _isLoading.value = Event(true)
         val service =
-            ApiConfig.getApiService().uploadPicture(image, typeDetection)
-        service.enqueue(object : Callback<UploadResponse> {
+            ApiConfig.getApiService().uploadPicture(image)
+        service.enqueue(object : Callback<UpResponse> {
             override fun onResponse(
-                call: Call<UploadResponse>,
-                response: Response<UploadResponse>
+                call: Call<UpResponse>,
+                response: Response<UpResponse>
             ) {
                 _isLoading.value = Event(false)
                 if (response.isSuccessful) {
                     val responseBody = response.body()
-                    if (responseBody != null && !responseBody.error) {
+                    if (responseBody != null) {
                         _isUploadSuccess.value = Event(true)
-                        _idDetection.value = responseBody.id
+//                        _idDetection.value = responseBody.statusCode
                     }
                 } else {
                     _isFailed.value = Event(true)
@@ -52,7 +53,7 @@ class ReviewViewModel : ViewModel() {
                 }
             }
 
-            override fun onFailure(call: Call<UploadResponse>, t: Throwable) {
+            override fun onFailure(call: Call<UpResponse>, t: Throwable) {
                 _isLoading.value = Event(false)
                 _isFailed.value = Event(true)
                 Log.e(TAG, "onFailure: ${t.message.toString()}")

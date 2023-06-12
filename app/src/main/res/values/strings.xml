@@ -31,4 +31,9 @@
     <string name="headline_article">headline article</string>
     <string name="unable_to_start_the_camera">Unable to start the camera</string>
     <string name="unable_to_capture_photo">Unable to capture a photo</string>
+    <string name="denied_access_permission">Denied Access Permission</string>
+    <string name="title_alertDialog">Confirmation</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="message_alertDialog">Do you really want to proceed with uploading this photo?</string>
 </resources>

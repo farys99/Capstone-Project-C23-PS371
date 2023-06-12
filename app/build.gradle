@@ -73,4 +73,6 @@ dependencies {
 
     implementation 'com.github.bumptech.glide:glide:4.13.1'
     implementation "com.google.guava:guava:31.0.1-android"
+
+    implementation "com.vanniktech:android-image-cropper:4.3.3"
 }

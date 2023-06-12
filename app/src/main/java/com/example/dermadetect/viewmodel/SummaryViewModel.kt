@@ -21,36 +21,36 @@ class SummaryViewModel: ViewModel() {
     private val _summaryDetect = MutableLiveData<ResultResponse>()
     val summaryDetect: LiveData<ResultResponse> = _summaryDetect
 
-    fun uploadPhoto(
-        idDetection: String?,
-    ) {
-        _isLoading.value = Event(true)
-        val service =
-            ApiConfig.getApiService().getResult(idDetection)
-        service.enqueue(object : Callback<ResultResponse> {
-            override fun onResponse(
-                call: Call<ResultResponse>,
-                response: Response<ResultResponse>
-            ) {
-                _isLoading.value = Event(false)
-                if (response.isSuccessful) {
-                    val responseBody = response.body()
-                    if (responseBody != null && !responseBody.error) {
-                        _summaryDetect.value = response.body()
-                    }
-                } else {
-                    _isFailed.value = Event(true)
-                    Log.e(TAG, "onFailure: ${response.message()}")
-                }
-            }
-
-            override fun onFailure(call: Call<ResultResponse>, t: Throwable) {
-                _isLoading.value = Event(false)
-                _isFailed.value = Event(true)
-                Log.e(TAG, "onFailure: ${t.message.toString()}")
-            }
-        })
-    }
+//    fun uploadPhoto(
+//        idDetection: String?,
+//    ) {
+//        _isLoading.value = Event(true)
+//        val service =
+//            ApiConfig.getApiService().getResult(idDetection)
+//        service.enqueue(object : Callback<ResultResponse> {
+//            override fun onResponse(
+//                call: Call<ResultResponse>,
+//                response: Response<ResultResponse>
+//            ) {
+//                _isLoading.value = Event(false)
+//                if (response.isSuccessful) {
+//                    val responseBody = response.body()
+//                    if (responseBody != null && !responseBody.error) {
+//                        _summaryDetect.value = response.body()
+//                    }
+//                } else {
+//                    _isFailed.value = Event(true)
+//                    Log.e(TAG, "onFailure: ${response.message()}")
+//                }
+//            }
+//
+//            override fun onFailure(call: Call<ResultResponse>, t: Throwable) {
+//                _isLoading.value = Event(false)
+//                _isFailed.value = Event(true)
+//                Log.e(TAG, "onFailure: ${t.message.toString()}")
+//            }
+//        })
+//    }
 
     companion object {
         private const val TAG = "ResultViewModel"

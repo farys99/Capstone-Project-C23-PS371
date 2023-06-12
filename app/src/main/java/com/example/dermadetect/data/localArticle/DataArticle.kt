@@ -324,6 +324,290 @@ object DataArticle {
                     "- Tutup area gatal agar kamu tidak mudah untuk menggaruknya. Jika garuk tidak tertahankan, jangan menggaruk saat kuku kamu panjang, ya! Karena kondisi ini akan menambah gejala semakin parah.\n" +
                     "\n" +
                     "Untuk itu, selalu hindari faktor-faktor yang menjadi pemicu dari dermatitis atopik, dan jangan lupa untuk jaga kelembapan kulit kamu, ya! Jika kamu mengalami gejala-gejala dermatitis atopik, sebaiknya segera diskusikan dengan dokter guna mencegah perkembangan penyakit menjadi lebih parah.", "dr. Verury Verona Handayani","https://d1bpj0tv6vfxyp.cloudfront.net/articles/613ab3dd-9495-4200-a42f-a9b3cea058b1_article_image_url.webp"
+        ),
+        arrayOf( "Kulit Sensitif Dapat Menjadi Gejala Awal Penyakit Lupus", "23 Juli 2021",
+            "Gejala Awal Penyakit Lupus pada Kulit\n" +
+                    "Menurut Lupus Foundation of America, lupus dapat menimbulkan gejala yang mirip rheumatoid arthritis, kelainan darah, fibromyalgia, diabetes, masalah tiroid, dan banyak lagi.\n" +
+                    "Salah satu gejala awal umum yang dapat menjadi indikasi lupus adalah ruam fotosensitif, yaitu ruam yang berkembang sebagai respons terhadap paparan sinar matahari, terutama pada wajah dan lengan atas.\n" +
+                    "\n" +
+                    "Gejala Lain yang Perlu Diwaspadai\n" +
+                    "1. Kelelahan\n" +
+                    "Kelelahan dapat disebabkan oleh penyakit lupus sendiri atau dari depresi, kecemasan, kurang olahraga, dan masalah tidur yang terkait. Pengidap lupus rentan mengalami kekurangan vitamin D, yang akhirnya dapat menyebabkan kelelahan.\n" +
+                    "2. Demam\n" +
+                    "Demam yang tidak dapat dijelaskan adalah gejala umum lupus lainnya. Terkadang demam dikaitkan dengan penyakit lupus, dan beberapa obat lupus dapat meningkatkan risiko infeksi, yang juga dapat menyebabkan demam.\n" +
+                    "3. Persendian Sakit dan Kaku\n" +
+                    "Peradangan yang terkait dengan lupus dapat menyebabkan kekakuan, pembengkakan, nyeri, dan kehangatan sendi, paling sering di jari tangan, tangan, siku, pergelangan kaki, dan jari kaki.\n" +
+                    "4. Sindrom Raynaud\n" +
+                    "Sindrom Raynaud adalah suatu kondisi di mana pembuluh darah kecil di jari tangan dan kaki kejang, membatasi sirkulasi. Orang dengan sindrom ini sangat sensitif terhadap suhu dingin dan, dalam kondisi tersebut, akan sering melihat hilangnya sirkulasi dan hilangnya warna di jari mereka jauh lebih cepat daripada orang tanpa kondisi tersebut.\n" +
+                    "5. Sakit Kepala\n" +
+                    "Orang dengan lupus sering mengalami sakit kepala seperti migrain. Kondisi ini umumnya dikenal sebagai sakit kepala lupus. Orang dengan sindrom Raynaud lebih mungkin mengalami sakit kepala lupus. Sakit kepala juga bisa disebabkan oleh peradangan pada pembuluh darah, suatu kondisi yang disebut vaskulitis.\n" +
+                    "6. Rambut Rontok\n" +
+                    "Peradangan kulit yang terkait dengan lupus terkadang dapat menyebabkan kerontokan rambut. Setelah lupus diobati, rambut bisa tumbuh kembali. Namun, ruam diskoid dapat menyebabkan jaringan parut pada kulit kepala dan kerontokan rambut permanen.", "dr. Fadhli Rizal Makarim", "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2021/07/23082657/Kulit-Sensitif-Dapat-Menjadi-Gejala-Awal-Penyakit-Lupus.jpg.webp"
+        ),
+        arrayOf( "Ini Gejala Fisik Penyakit Lupus yang Dapat Dikenali", "20 April 2023",
+            "Mengapa Seseorang Bisa Alami Penyakit Lupus?\n" +
+                    "Penyakit lupus bisa sulit didiagnosis. Sebab, tanda dan gejalanya sering mirip dengan penyakit lain. Tanda paling khas dari lupus adalah ruam wajah yang menyerupai sayap kupu-kupu yang terbentang di kedua pipi. Gejala khas ini terjadi pada banyak kasus meski tidak semuanya.\n" +
+                    "\n" +
+                    "Gejala Fisik Penyakit Lupus\n" +
+                    "Tanda dan gejala penyakit lupus bergantung pada sistem tubuh mana yang terdampak penyakit tersebut. Tanda dan gejala yang paling umum meliputi:\n" +
+                    "- Kelelahan.\n" +
+                    "- Demam.\n" +
+                    "- Nyeri sendi, kaku dan bengkak.\n" +
+                    "- Ruam berbentuk kupu-kupu di wajah yang menutupi pipi dan pangkal hidung atau ruam di tempat lain di tubuh.\n" +
+                    "- Lesi kulit yang muncul atau memburuk akibat paparan sinar matahari.\n" +
+                    "- Jari tangan dan kaki yang berubah menjadi putih atau biru saat terkena dingin atau saat sedang stres.\n" +
+                    "- Sesak napas.\n" +
+                    "- Nyeri dada.\n" +
+                    "- Mata kering.\n" +
+                    "- Sakit kepala, kebingungan, dan kehilangan ingatan.\n" +
+                    "\n" +
+                    "Cara Mencegah Gejala Lupus\n" +
+                    "1. Hindari paparan sinar matahari langsung\n" +
+                    "Paparan sinar matahari yang berlebihan dapat menyebabkan ruam terkait lupus. Pengidapnya harus selalu memakai tabir surya saat pergi ke luar ruangan, dan menghindari sinar matahari langsung saat sinar matahari paling tinggi, yang biasanya antara pukul 10 pagi dan 4 sore.\n" +
+                    "2. Mengelola stres dengan baik\n" +
+                    "Jika kamu mengidap penyakit lupus, kamu perlu mengelola stres yang kamu alami dengan meditasi, yoga, atau pijat relaksasi. Cara ini dapat membantu menghilangkan stres.\n" +
+                    "3. Mencegah infeksi\n" +
+                    "Ada beberapa hal untuk mencegah infeksi. Contohnya seperti sering mencuci tangan, dan menghindari berada di sekitar mereka yang mengidap pilek serta penyakit lainnya yang dapat dengan mudah menular.", "dr. Fadhli Rizal Makarim", "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2021/07/08054430/X-Gejala-Fisik-Lupus-yang-Dapat-Dikenali-1.jpg.webp"
+        ),
+        arrayOf( "Ini 5 Fakta tentang Lupus yang Jarang Diketahui", "02 Januari 2020",
+            "Memiliki nama medis Systemic Lupus Erythematosus (SLE), lupus memang menjadi penyakit yang tidak sekeren kanker, jantung, hipertensi, maupun stroke. Meski begitu, lupus yang disebut sebagai penyakit seribu wajah ini juga menjangkiti manusia. Sayangnya, pengetahuan masyarakat tentang penyakit satu ini masih terbilang minim, bahkan tidak sedikit orang awam yang belum mengetahui dengan pasti apa sebenarnya penyakit lupus.\n" +
+                    "\n" +
+                    "Supaya pengetahuan kamu tentang penyakit lupus lebih mendalam, kamu harus tahu dulu, berbagai fakta tentang penyakit ini yang ternyata belum banyak diketahui. Apa saja?\n" +
+                    "- Lupus Merupakan Penyakit Autoimun Kronis\n" +
+                    "Ternyata, lupus merupakan salah satu dari sekian banyak penyakit yang terjadi karena kondisi autoimun. Penyakit ini terjadi karena peradangan pada jaringan ikat yang mengakibatkan terjadinya kerusakan beberapa organ tubuh sebagai dampak dari timbulnya masalah pada sistem imunitas tubuh. Organ tubuh yang bisa terpengaruh, termasuk paru-paru, kulit, ginjal, pembuluh darah, sendi, sel darah, hingga saraf. \n" +
+                    "- Ada Beragam Jenis Lupus\n" +
+                    "Fakta lain tentang penyakit lupus yang belum banyak orang tahu adalah penyakit ini ternyata memiliki banyak jenis. Selain lupus sistemik atau SLE yang menyerang organ dan sendi dan menjadi jenis lupus yang paling banyak terjadi, masih ada lagi yaitu discoid lupus yang menyerang kulit, sehingga memicu timbulnya ruam yang tidak menghilang, lupus karena penggunaan obat, lupus neonatal yang menyerang bayi baru lahir, dan lupus subacute cutaneous erythematosus yang membuat kulit yang terpapar cahaya matahari menjadi sakit.\n" +
+                    "- Pengidap Lupus Terbanyak adalah Wanita\n" +
+                    "Nah, ini mungkin yang kamu tidak tahu, bahwa sekitar 90 persen angka pengidap lupus tidak hadir dari pria, melainkan wanita. Bahkan, wanita memiliki risiko 10 kali lebih besar untuk terserang lupus dibandingkan dengan pria. Usia 18 hingga 45 tahun adalah rentang yang paling berisiko mengalami lupus. Waspada pula lupus pada wanita hamil, karena penanganan yang terlambat atau tanpa penanganan, lupus yang terjadi pada ibu hamil bisa membahayakan ibu dan janin.\n" +
+                    "- Lupus Sulit Terdiagnosis\n" +
+                    "Mengapa? Karena gejala lupus yang sering muncul sering disalahartikan sebagai gejala penyakit lain karena terbilang mirip. Inilah mengapa lupus kerap berakhir dengan terlambat penanganan karena diagnosis yang terbilang rumit dan membutuhkan waktu yang tidak sebentar. Biasanya, diagnosis lupus dibuat berdasarkan gejala yang dialami dan dikaitkan dengan riwayat penyakit yang pernah diidap.\n" +
+                    "- Pengobatannya Bergantung pada Jenis dan Gejalanya\n" +
+                    "Hingga kini, pengobatan untuk menangani lupus pun masih berkisar pada gejala yang terjadi. Misalnya, jika lupus terjadi karena masalah imunitas tubuh pada sendi dengan gejala, seperti nyeri otot, nyeri sendi, ruam kulit, dan kelelahan, pengobatan pun ditujukan untuk mengurangi tingkat keparahan gejalanya. Meski begitu, pemberian obat mungkin beragam apabila terjadi komplikasi serius pada beberapa organ.", "dr. Fadhli Rizal Makarim", "https://d1bpj0tv6vfxyp.cloudfront.net/articles/236d2fe2-7bb3-4003-818b-5cdb6df543e9_article_image_url.webp"
+        ),
+        arrayOf( "Faktor yang Bisa Tingkatkan Risiko Terserang Lupus", "22 Mei 2020",
+            "Lupus atau dalam dunia medis disebut sebagai systemic lupus erythematosus  adalah penyakit yang menyerang sistem kekebalan tubuh. Normalnya, sistem kekebalan melindungi tubuh dari infeksi. Pada pengidap lupus, sistem kekebalan menyerang jaringan di berbagai bagian tubuh secara tidak tepat.\n" +
+                    "\n" +
+                    "Faktor Risiko Lupus\n" +
+                    "- Jenis kelamin. Ternyata, wanita lebih mungkin mengembangkan lupus daripada pria. Hal ini dibuktikan dari banyaknya pengidap lupus yang berjenis kelamin wanita.\n" +
+                    "- Usia. Gejala lupus sering muncul antara usia 15 dan 44 tahun. Gejala lupus terjadi sebelum usia 18 tahun dan hanya sebesar 15 persen orang yang kemudian didiagnosis mengidap penyakit tersebut.\n" +
+                    "- Ras / etnis. Di Amerika Serikat, lupus lebih sering menyerang orang kulit berwarna daripada populasi Kaukasia. Ini termasuk orang Afrika-Amerika, Hispanik/Latin, Asia-Amerika, Pribumi Amerika, Pribumi Hawaii, dan Kepulauan Pasifik. Lupus juga berkembang pada usia yang lebih dini dan lebih parah pada kelompok etnis ini.\n" +
+                    "- Riwayat keluarga. Seseorang yang punya riwayat keluarga lupus memiliki peluang 5-13 persen untuk mengembangkan lupus. Namun, hanya sekitar 5 persen dari anak-anak mengembangkan lupus jika ibu mereka memilikinya.\n" +
+                    "\n" +
+                    "Seperti Apa Gejala Lupus?\n" +
+                    "- Nyeri sendi (arthralgia);\n" +
+                    "- Demam tanpa sebab;\n" +
+                    "- Sendi bengkak;\n" +
+                    "- Kelelahan yang berkepanjangan atau ekstrem;\n" +
+                    "- Ruam kulit;\n" +
+                    "- Pembengkakan pergelangan kaki dan akumulasi cairan;\n" +
+                    "- Nyeri di dada saat bernafas dalam (radang selaput dada);\n" +
+                    "- Ruam berbentuk kupu-kupu yang melintasi pipi dan hidung;\n" +
+                    "- Rambut rontok;\n" +
+                    "- Sensitivitas terhadap matahari dan/atau cahaya lain;\n" +
+                    "- Kejang;\n" +
+                    "-Luka mulut atau hidung;\n" +
+                    "-Jari atau jari kaki pucat atau ungu karena kedinginan atau stres (fenomena Raynaud).\n" +
+                    "\n" +
+                    "Apakah Lupus Bisa Diobati?\n" +
+                    "Sayangnya, tidak obat untuk lupus. Jenis pengobatan lupus tergantung pada beberapa faktor. Tetapi ada beberapa langkah yang dapat dilakukan untuk meningkatkan kualitas hidup, seperti:\n" +
+                    "- Rutin berolahraga. Olahraga ringan, seperti berjalan, berenang, dan bersepeda membantu mencegah nyeri otot dan menurunkan risiko osteoporosis. Olahraga juga berdampak positif pada suasana hati.\n" +
+                    "- Istirahat yang cukup. Menerapkan pola tidur yang baik meningkatkan sistem kekebalan tubuh.\n" +
+                    "- Terapkan pola makan sehat. Pengidap lupus harus mengonsumsi makanan bergizi dan seimbang untuk meningkatkan kekebalan tubuh.\n" +
+                    "- Hindari alkohol. Alkohol berinteraksi dengan obat-obatan yang menimbulkan masalah perut atau usus yang signifikan, seperti ulkus.\n" +
+                    "- Jangan merokok. Merokok mengganggu sirkulasi dan memperburuk gejala pada pengidap lupus. Asap tembakau juga memiliki efek negatif pada jantung, paru-paru, dan perut.\n" +
+                    "- Hindari paparan sinar matahari. Pengidap lupus mengembangkan ruam atau penyakit ketika terkena sinar matahari. Oleh sebab itu, pengidap harus menghindari diri dari sinar matahari dengan membatasi waktu di bawah sinar matahari, terutama antara pukul 10 pagi dan 2 siang. Mereka perlu mengenakan kacamata hitam, topi, dan tabir surya saat berada di bawah sinar matahari.\n" +
+                    "Obati demam. Segera obati demam dan infeksi yang terjadi. Demam dapat mengindikasikan infeksi atau lupus yang meradang.\n" +
+                    "Pengidap mungkin juga perlu mencatat gejala lupus untuk mengetahui bagian tubuh mana saja yang yang terpengaruh dan situasi atau kegiatan apa yang tampaknya memicu gejala.", "dr. Fadhli Rizal Makarim", "https://d1bpj0tv6vfxyp.cloudfront.net/articles/e847c53f-10ba-4d5e-ae9f-b73dddcf8a53_article_image_url.webp"
+        ),
+        arrayOf( "Ini Alasan Lupus Sulit Disembuhkan", "02 Agustus 2020",
+            "Lupus eritematosus, atau yang lebih dikenal dengan penyakit lupus merupakan penyakit autoimun kronis yang menyebabkan peradangan di beberapa bagian tubuh, seperti kulit, sendi, ginjal, bahkan otak. Meski bisa dialami oleh siapa saja, lupus lebih rentan dialami oleh wanita ketimbang pria. Lupus akan membuat sistem imun yang seharusnya melindungi tubuh, justru menyerang sel, jaringan, dan organ tubuh yang sehat. Apakah lupus sulit disembuhkan? \n" +
+                    "Pengobatan yang dijalani oleh pengidap lupus bertujuan untuk meringankan gejala yang muncul, mencegah kambuhnya penyakit, serta meminimalkan risiko terjadinya kerusakan organ dalam tubuh. Perkembangan penyakitnya sendiri kerap kali berubah-ubah, sehingga jalan pengobatan yang dilakukan bisa berganti seiring dengan waktu, yang disesuaikan dengan gejala dan tingkat keparahan penyakit.\n" +
+                    "Dalam kondisi yang normal, kompleks imun akan dibatasi oleh sel-sel radang yang disebut dengan istilah fagosit. Namun, saat seseorang mengidap penyakit lupus, kompleks imun tidak dibatasi sepenuhnya, bahkan sel-sel radang bisa berkembang biak, dan disertai dengan pengeluaran enzim yang menimbulkan peradangan di sekitar kompleks imun.\n" +
+                    "Akibatnya, peradangan akan berkepanjangan dan berujung pada rusaknya organ dalam tubuh, karena mengganggu kerja organ di mana sel-sel radang berkembang biak. Gejala yang muncul akan mengikuti bagian organ tubuh yang mengalami peradangan, sehingga gejala akan tampak seperti penyakit yang lain. Kompleks imun sendiri akan berjalan mengikuti aliran darah. Karena hal tersebut, maka setiap organ dalam tubuh dapat terancam.\n" +
+                    "Nah, karena hal tersebutlah penyakit lupus sulit disembuhkan. Selain karena gejalanya mirip dengan penyakit lain, hingga kini belum diketahui metode pengobatan yang manjur untuk menghentikan proses terjadinya penyakit tersebut. \n" +
+                    "\n" +
+                    "Gejala Penyakit Lupus yang Tampak dan Perlu Diperhatikan\n" +
+                    "- Terus merasa kelelahan meski sudah beristirahat dengan cukup.\n" +
+                    "- Muncul ruam dari batang hidung sampai kedua pipi.\n" +
+                    "- Muncul ruam pada tangan dan pergelangan tangan.\n" +
+                    "- Jika terpapar sinar matahari, ruam kulit akan bertambah parah, nyeri, atau gatal.\n" +
+                    "- Sendi terasa nyeri, kaku, atau bengkak.\n" +
+                    "- Demam.\n" +
+                    "- Sesak napas.\n" +
+                    "- Mulut dan mata terasa kering.\n" +
+                    "- Nyeri dada.\n" +
+                    "- Sakit kepala.\n" +
+                    "- Penurunan daya ingat.\n" +
+                    "- Sariawan.\n" +
+                    "- Rambut rontok.\n" +
+                    "- Kejang.\n" +
+                    "Pembengkakan pada pergelangan kaki.\n" +
+                    "\n" +
+                    "Segera periksakan diri di rumah sakit terdekat jika kamu mengalami sejumlah gejala penyakit lupus seperti yang telah disebutkan, terutama jika kamu mengalami ruam yang disertai dengan nyeri sendi atau rasa lelah yang terus-menerus. Gejala penyakit lupus penting diperhatikan agar kondisi dapat didiagnosis dan ditangani dari awal.", "dr. Verury Verona Handayani", "https://d1bpj0tv6vfxyp.cloudfront.net/articles/e04584a8-d0f0-4ecf-b2dc-382b40ce95be_article_image_url.webp"
+        ),
+        arrayOf( "Kulit Kering Bersisik, Waspada Gangguan Psoriasis", "13 Agustus 2020",
+            "Salah satu tanda munculnya psoriasis adalah kulit kering, bersisik, kemerahan, dan sangat gatal. Bahkan, kulit yang gatal dan kering ini bisa mengalami pecah-pecah dan berdarah. Gejala lainnya adalah area kulit yang terinfeksi akan mudah terluka meski hanya tergores, perubahan warna pada kuku jari tangan dan kaki, kuku mudah terlepas, dan plak bersisik pada kulit kepala.\n" +
+                    "Sering kali, orang salah mengartikan psoriasis sebagai gangguan kulit yang menular begitu melihat munculnya lesi, terlebih jika ukurannya terbilang lebar. Namun, psoriasis bukanlah penyakit menular, sehingga kamu tidak perlu khawatir meskipun berada berdekatan dengan pengidap penyakit ini.\n" +
+                    "Pun, psoriasis sering disalahartikan dengan dermatitis atopik, padahal keduanya jelas berbeda. Lesi psoriasis biasanya memiliki batas yang lebih tajam, juga lebih tebal dibandingkan dengan dermatitis atopik. Pengidap dermatitis atopik akan menunjukkan gejala pada masa anak-anak dan sering dihubungkan dengan kondisi alergi, seperti asma, alergi musiman, atau alergi makanan.\n" +
+                    "Dibandingkan dengan psoriasis, dermatitis atopik cenderung memicu rasa gatal yang lebih parah, lesi yang tidak terlalu jelas dan muncul pada banyak bagian tubuh, seperti wajah dan area lipatan tubuh pada bagian tangan dan kaki.\n" +
+                    "Psoriasis memang tidak dapat dihindari karena termasuk masalah autoimun, tetapi kamu bisa mengurangi pemicunya dengan melakukan yoga, meditasi, olahraga, dan mengonsumsi makanan sehat serta menjaga berat badan tetap ideal. Jangan lupa, hindari konsumsi alkohol dan merokok, serta pastikan kondisi kulit tetap lembap.\n" +
+                    "Inilah mengapa kamu memerlukan bantuan dokter ahli untuk mendapatkan diagnosis dan penanganan yang tepat ketika mendapati adanya lesi pada kulit.", "dr. Rizal Fadli", "https://d1bpj0tv6vfxyp.cloudfront.net/articles/948ab496-ff6f-42be-be7c-c16a0a6b455a_article_image_url.webp"
+        ),
+        arrayOf( "Pola Hidup Sehat untuk Pengidap Psoriasis", "22 September 2020",
+            "Berikut pola hidup yang perlu dilakukan pengidap psoriasis guna meringankan gejalanya:\n" +
+                    "- Mandi setiap hari. Mandi setiap hari membantu menghilangkan sisik dan menenangkan kulit yang meradang. Tambahkan minyak, oatmeal dan garam Epsom ke dalam air dan rendam setidaknya selama 15 menit untuk menambah kelembapan kulit. Kamu juga bisa menggunakan air hangat dan sabun lembut setiap kali mandi.\n" +
+                    "- Gunakan pelembap. Setelah mandi, keringkan dengan lembut dan oleskan pelembap berbahan salep saat kulit masih dalam keadaan lembap. Untuk kulit yang sangat kering, sebaiknya gunakan pelembap yang berbasis minyak. Sebab, minyak memiliki daya tahan lebih tinggi daripada krim atau losion. Jika pelembap terlihat sangat memperbaiki kondisi kulit, aplikasikan satu sampai tiga kali sehari.\n" +
+                    "- Tutupi area yang terkena semalaman. Sebelum tidur, oleskan pelembap berbahan dasar salep ke kulit yang terkena dan bungkus dengan bungkus plastik. Saat terbangun, keluarkan plastik dan bersihkan sisik.\n" +
+                    "- Paparkan kulit pada sedikit sinar matahari. Tanyakan kepada dokter tentang cara terbaik menggunakan sinar matahari alami untuk merawat kulit. Sinar matahari yang terkontrol dapat memperbaiki psoriasis, tetapi terlalu banyak sinar matahari dapat memicu atau memperburuk penyakit. Pastikan kamu mencatat waktu yang dibutuhkan untuk berjemur di bawah sinar matahari dan lindungi kulit yang tidak terkena psoriasis dengan tabir surya dengan SPF minimal 30.\n" +
+                    "- Oleskan krim atau salep obat. Oleskan krim atau salep dijual bebas yang mengandung hidrokortison atau asam salisilat untuk mengurangi gatal dan bersisik. Jika kamu mengalami psoriasis di kulit kepala, cobalah sampo obat yang mengandung tar batubara.\n" +
+                    "- Hindari pemicu psoriasis. Perhatikan apa yang bisa memicu psoriasis yang kamu miliki dan ambil langkah untuk mencegah atau menghindarinya. Infeksi, luka pada kulit, stres, merokok, dan paparan sinar matahari yang intens adalah beberapa contoh yang dapat memicu psoriasis. \n" +
+                    "- Hindari minum alkohol. Konsumsi alkohol dapat menurunkan efektivitas pengobatan psoriasis. Jadi, pastikan kamu menghindari alkohol apabila mengidap psoriasis.\n" +
+                    "Upayakan untuk mempertahankan gaya hidup sehat di atas. Selain berhenti merokok dan minum alkohol, kamu dapat mengelola psoriasis dengan makan makanan sehat dan menjaga berat badan tetap stabil.", "dr. Verury Verona Handayani", "https://d1bpj0tv6vfxyp.cloudfront.net/articles/74ae7772-3959-43cc-acab-0d4173ed9ffa_article_image_url.webp"
+        ),
+        arrayOf( "Kenali Gejala dan Penyebab Psoriasis yang Bisa Menyebar ke Seluruh Tubuh", "24 November 2018",
+            "Gejala psoriasis yang muncul pada setiap orang berbeda-beda. Pengidap psoriasis bisa saja tidak mengalami gejala, atau mengalami gejala ringan. Pada kasus yang jarang terjadi, gejala yang dialami bertambah parah hingga mengganggu aktivitas sehari-hari. Lantas, apa saja tanda dan gejala psoriasis yang bisa diamati?\n" +
+                    "- Kulit memerah yang terasa tebal, kering, dan bersisik.\n" +
+                    "- Kulit menjadi pecah dan rentan berdarah.\n" +
+                    "- Kuku menebal dengan tekstur tidak rata.\n" +
+                    "- Sendi membengkak dan kaku.\n" +
+                    "\n" +
+                    "Selain gejala tersebut, psoriasis bisa menunjukkan gejala berbeda, tergantung pada jenis yang dialami. Berikut gejala psoriasis berdasarkan jenisnya:\n" +
+                    "1. Psoriasis plak: Ruam memerah yang terasa kering dan bersisik keperakan (plak). Plak bisa terasa gatal dan perih, serta bisa muncul di bagian mana saja, terutama pada kulit lutut, siku, dan kulit kepala.\n" +
+                    "2. Psoriasis kuku: Perubahan warna kuku, cekungan kecil pada kuku, kuku tumbuh abnormal dan kuku terlepas.\n" +
+                    "3. Psoriasis kulit kepala: Muncul sisi tebal pada sebagian atau seluruh kulit kepala.\n" +
+                    "4. Psoriasis inversi: Ruam memerah yang terasa halus, rentan terjadi pada bagian lipatan kulit (seperti ketiak dan lipatan paha).\n" +
+                    "5. Psoriasis gutata: Ruam memerah menyerupai tetesan air, rentan terjadi pada tubuh bagian atas, lengan, tungkai kaki, dan kulit kepala.\n" +
+                    "6. Psoriasis pustular: Ruam memerah yang bisa melepuh dan berisi nanah.\n" +
+                    "7. Psoriasis eritrodermik: Ruam memerah yang terasa gatal dan perih di seluruh tubuh.\n" +
+                    "8. Artritis psoriasis: Kulit iritasi dan bersisik, serta perubahan warna kuku.\n" +
+                    "\n" +
+                    "Beberapa faktor lain yang diduga menjadi penyebab psoriasis adalah:\n" +
+                    "- Faktor genetik atau keturunan.\n" +
+                    "- Cedera kulit, seperti akibat tergores, digigit serangga atau terbakar matahari.\n" +
+                    "- Konsumsi alkohol berlebihan.\n" +
+                    "- Efek samping obat-obatan, seperti obat hipertensi dan anti malaria.\n" +
+                    "- Kebiasaan merokok.\n" +
+                    "- Stres dan kecemasan.\n" +
+                    "- Perubahan hormon, terutama pada wanita saat menopause dan menstruasi.\n" +
+                    "- Mengidap penyakit tertentu, seperti infeksi tenggorokan dan obesitas.\n" +
+                    "\n" +
+                    "Itulah gejala dan penyebab psoriasis yang bisa menyebar ke seluruh tubuh.", "Redaksi Halodoc", "https://d1bpj0tv6vfxyp.cloudfront.net/articles/7f5fac21-1acb-483d-8652-76d61aa20282_article_image_url.webp"
+        ),
+        arrayOf( "Inilah Trik agar Psoriasis Tidak Sering Kambuh", "23 Agustus 2022",
+            "Ada beberapa langkah perawatan diri secara mandiri untuk membantu agar gejala psoriasis tidak sering kambuh. Caranya antara lain:\n" +
+                    "- Gunakan Pelembap\n" +
+                    "- Paparkan Kulit pada Sedikit Sinar Matahari\n" +
+                    "- Oleskan Krim atau Salep Obat\n" +
+                    "- Hindari Pemicu Psoriasis\n" +
+                    "\n" +
+                    "Ada beberapa hal yang perlu diperhatikan untuk membantu meningkatkan kualitas hidup meski mengidap psoriasis, yaitu: \n" +
+                    "- Diet\n" +
+                    "- Menjaga Kebersihan Tubuh\n" +
+                    "- Mengelola Stres\n" +
+                    "- Menjaga Kesehatan Emosional\n" +
+                    "\n" +
+                    "Itulah berbagai cara yang bisa dilakukan agar psoriasis tidak sering kambuh", "dr. Rizal Fadli", "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/08/22081555/X-Trik-Agar-Psoriasis-Enggak-Sering-Kambuh.jpg.webp"
+        ),
+        arrayOf( "Catat, Ini Cara Tepat Merawat Kulit yang Terkena Psoriasis", "02 Agustus 2022",
+            "Perawatan digunakan akan tergantung pada seberapa parah psoriasis dan seberapa responsifnya perawatan sebelumnya dan tindakan perawatan diri. Perawatan psoriasis terbagi dalam tiga kategori, yaitu: \n" +
+                    "\n" +
+                    "1. Perawatan Topikal\n" +
+                    "Krim dan salep yang dioleskan langsung ke kulit dapat membantu mengurangi psoriasis ringan hingga sedang. Orang dengan psoriasis sedang hingga parah dan mereka yang tidak merespons dengan baik terhadap jenis pengobatan lain, mungkin perlu menggunakan obat oral atau injeksi. Banyak dari obat-obatan ini memiliki efek samping yang parah. Dokter biasanya meresepkannya untuk jangka waktu singkat.\n" +
+                    "\n" +
+                    "2. Terapi Cahaya \n" +
+                    "Perawatan psoriasis ini menggunakan sinar ultraviolet (UV) atau alami. Sinar matahari membunuh sel-sel darah putih yang terlalu aktif yang menyerang sel-sel kulit yang sehat, dan menyebabkan pertumbuhan sel yang cepat. Baik sinar UVA maupun UVB dapat membantu mengurangi gejala psoriasis ringan hingga sedang. Kebanyakan orang dengan psoriasis sedang hingga parah akan mendapat manfaat dari kombinasi perawatan. Jenis terapi ini menggunakan lebih dari satu jenis pengobatan untuk mengurangi gejala. Beberapa orang mungkin menggunakan perawatan yang sama sepanjang hidup mereka. Orang lain mungkin perlu mengubah perawatan sesekali jika kulit mereka berhenti merespons apa yang mereka gunakan.\n" +
+                    "\n" +
+                    "3. Rekomendasi Diet\n" +
+                    "Makanan tidak dapat menyembuhkan atau bahkan mengobati psoriasis, tapi pola makan tertentu dapat dapat mengurangi gejalanya. Jika kamu mengalami kelebihan berat badan, menurunkan berat badan dapat mengurangi keparahan kondisi ini.\n" +
+                    "\n" +
+                    "Berikut adalah beberapa pilihan perawatan alternatif tersebut: \n" +
+                    "- Krim ekstrak lidah buaya. Diambil dari daun tanaman aloe vera atau lidah buaya, krim ini diduga dapat mengurangi kulit bersisik, gatal dan peradangan.\n" +
+                    "- Suplemen minyak ikan. Terapi minyak ikan secara oral yang digunakan dalam kombinasi dengan terapi UVB dapat mengurangi luasnya ruam. Bahkan, mengoleskan minyak ikan ke kulit yang terkena psoriasis dan menutupinya dengan pembalut selama enam jam sehari, dikabarkan juga dapat memperbaiki kerak.\n" +
+                    "- Anggur Oregon. Anggur Oregon atau yang juga dikenal sebagai barberry dapat dioleskan ke kulit dan dipercaya dapat mengurangi keparahan psoriasis.\n" +
+                    "\n" +
+                    "Itulah penjelasan mengenai beberapa cara tepat merawat kulit yang terkena psoriasis dan beberapa pilihan pengobatan alternatif yang dipercaya aman dan dapat membantu meredakan gejala psoriasis.", "dr. Rizal Fadli", "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/08/02041036/ini-3-cara-tepat-merawat-kulit-yang-terkena-psoriasis.jpg.webp"
+        ),
+        arrayOf( "Ketahui Penyebab Seseorang Bisa Terkena Vitiligo", "18 Desember 2018",
+            "Vitiligo adalah sebuah kondisi di mana sebagian kulit kehilangan warna alaminya. Hal ini membuat kulit, seperti mendapatkan tambalan dengan warna kulit yang lebih terang ketimbang warna kulit yang asli.\n" +
+                    "Selain kulit, vitiligo juga dapat memengaruhi bagian lain dari tubuh. Misalnya, rambut bisa berubah menjadi putih, di mana beberapa orang kehilangan warna di dalam mulut, bahkan juga berpengaruh pada mata.\n" +
+                    "Beberapa orang dengan vitiligo sering kehilangan mengembangkan harga diri yang rendah. Tidak ingin bergaul dengan lingkungan sosialnya, bahkan sampai mengalami depresi serius. Penyebab vitiligo terjadi ketika sel-sel penghasil pigmen (melanosit) mati atau berhenti memproduksi melanin. Pigmen yang memberi warna kulit, rambut, dan mata. Bagian-bagian kulit yang terkena menjadi lebih terang atau putih. Terkait mengapa sel-sel tersebut gagal atau mati bisa dikarenakan:\n" +
+                    "- Gangguan di mana sistem kekebalan tubuh menyerang dan menghancurkan melanosit di kulit\n" +
+                    "- Riwayat keluarga (keturunan)\n" +
+                    "- Kejadian pemicu, seperti terbakar sinar matahari, stres, ataupun paparan bahan kimia industri.\n" +
+                    "Orang dengan vitiligo sangat tinggi risiko mengalami stres lewat pergaulan sosial atau kondisi psikologis lebih rentan mengalami sunburn dan kanker kulit, masalah mata, seperti radang iris (iritis) dan kehilangan pendengaran.\n" +
+                    "\n" +
+                    "Tanda utama vitiligo adalah hilangnya warna kulit secara merata. Biasanya, perubahan warna pertama kali terlihat di area yang terkena sinar matahari, seperti tangan, kaki, lengan, wajah dan bibir. Tanda-tanda Vitiligo yang lain termasuk:\n" +
+                    "- Kerontokan warna kulit\n" +
+                    "- Rambut memutih secara prematur pemutih mulai dari rambut di kulit kepala, bulu mata, alis atau janggut\n" +
+                    "- Hilangnya warna di jaringan yang melapisi bagian dalam mulut dan hidung (selaput lendir)\n" +
+                    "- Hilang atau berubahnya warna lapisan bagian dalam bola mata (retina)\n" +
+                    "Vitiligo dapat mulai pada usia berapa pun, tetapi sering muncul sebelum usia 20. Tergantung dari jenis vitiligo yang dimiliki. Misalnya, kalau di mana bercak yang berubah warna dapat meliputi hampir keseluruhan kulit tubuh disebut vitiligo umum. Ketika bercak yang berubah warna sering berkembang sama pada bagian tubuh yang bersesuaian (secara simetris) atau hanya satu sisi atau bagian dari tubuh maka jenis ini disebut vitiligo segmental. Tipe ini cenderung terjadi pada usia yang lebih muda, berlangsung selama satu atau dua tahun, lalu berhenti. Kalau hanya satu atau hanya beberapa area tubuh saja maka tipe ini disebut vitiligo lokal (fokal).\n" +
+                    "\n" +
+                    "Sulit untuk memprediksi bagaimana penyakit vitiligo ini akan akan berkembang. Terkadang perubahan warna bisa saja tiba-tiba berhenti terbentuk tanpa perawatan. Dalam banyak kasus, kehilangan pigmen menyebar dan akhirnya melibatkan sebagian besar kulitmu, sehingga jarang kulit mendapatkan warnanya kembali.", "Redaksi Halodoc", "https://d1bpj0tv6vfxyp.cloudfront.net/articles/e43327df-05e9-47f0-a13f-9336bffbb8e1_article_image_url.webp"
+        ),
+        arrayOf( "Apakah Vitiligo Dapat Disembuhkan? Ini Faktanya", "19 Desember 2018",
+            "Kondisi vitiligo, termasuk kategori fotosensitif yang berarti bahwa area yang terpengaruh akan lebih sensitif terhadap sinar matahari. Sulit untuk memprediksi apakah tambalan akan menyebar dan seberapa banyak. Penyebarannya mungkin membutuhkan waktu berminggu-minggu atau mungkin tetap stabil selama berbulan-bulan ataupun bertahun-tahun.\n" +
+                    "Tambalan yang lebih ringan cenderung lebih terlihat pada orang dengan kulit gelap atau kecokelatan. Vitiligo tidak dapat disembuhkan secara menyeluruh, tetapi penyebaran dan perubahan warnanya dapat dikendalikan dengan perawatan-perawatan khusus.\n" +
+                    "\n" +
+                    "Untuk mengetahui lebih dalam mengenai vitiligo, berikut adalah fakta-faktanya, seperti:\n" +
+                    "- Bukan Masalah Estetika. The American Academy of Dermatology (AAD), menegaskan kalau vitiligo bukanlah masalah estetika melainkan kesehatan yang membutuhkan perhatian medis.\n" +
+                    "- Penggunaan Obat. Sejumlah obat dapat membantu mengurangi visibilitas kondisi dari vitiligo, seperti penggunaan tabir surya. Ini dikarenakan bagian kulit yang lebih ringan sangat sensitif terhadap sinar matahari dan dapat dengan mudah terbakar. Untuk mendapatkan jenis tabir surya yang sesuai, pengidap vitiligo perlu untuk melakukan konsultasi.\n" +
+                    "- Fototerapi dengan Sinar UVB. Paparan lampu ultraviolet B (UVB) adalah pilihan perawatan umum. Perawatannya adalah dengan menggunakan lampu kecil dan memungkinkan untuk penggunaan sehari-hari, sehingga hasil lebih efektif.\n" +
+                    "- Kombinasi Tipe Perawatan. Fototerapi UVB, dikombinasikan dengan perawatan lain, maka dapat memiliki efek positif pada vitiligo. Namun, hasilnya tidak dapat diprediksi sepenuhnya, dan masih belum ada perawatan yang sepenuhnya akan mengembalikan pigmen kulit.\n" +
+                    "- Fototerapi dengan Sinar UVA. Perawatan UVA biasanya dilakukan dalam pengaturan perawatan kesehatan. Pertama, pasien mengambil obat yang meningkatkan kepekaan kulit terhadap sinar UV. Kemudian dalam serangkaian perawatan, kulit yang terkena terkena sinar UVA dosis tinggi. Kemajuan pengobatan dapat terlihat setelah 6—12 bulan dari sesi dua kali seminggu.\n" +
+                    "- Kamuflase kulit. Dalam kasus-kasus vitiligo ringan, pasien dapat menyamarkan beberapa tambalan putih dengan krim dan riasan kosmetik yang berwarna. Mereka harus memilih nada yang paling sesuai dengan fitur kulit mereka.\n" +
+                    "- Depigmenting. Ketika area yang terkena meluas yang mencakup 50 persen tubuh atau lebih, sehingga depigmentasi bisa menjadi pilihan. Ini mengurangi warna kulit di bagian yang tidak terpengaruh untuk menyesuaikan area yang lebih putih.\n" +
+                    "\n" +
+                    "Itulah kurang lebihnya informasi mengenai vitiligo dan bagaimana penanganannya.", "Redaksi Halodoc", "https://d1bpj0tv6vfxyp.cloudfront.net/articles/2d4b6b6d-bc4a-4405-bc19-f7ca38c0e733_article_image_url.webp"
+        ),
+        arrayOf( "Mengidap Vitiligo, Bukan Berarti Jadi Kurang Percaya Diri", "06 Maret 2019",
+            "Kenali Gejala Penyakit Vitiligo\n" +
+                    "Vitiligo ditandai dengan kemunculan bercak putih, biasanya di area tubuh yang sering terpapar sinar matahari, seperti wajah, bibir, tangan, dan kaki. Bercak putih ini bisa menyebar dan meluas ke bagian tubuh lain.\n" +
+                    "Hilangnya pigmen bukan hanya terjadi di kulit, tapi juga rambut, janggut, bulu mata, alis, bagian hitam mata, bagian dalam mulut dan hidung, serta area kelamin. Pada beberapa kasus, vitiligo ditandai dengan bercak putih dengan tepi kecokelatan atau kemerahan. Sebagian pengidap mungkin merasakan nyeri dan gatal di area kulit yang terinfeksi.\n" +
+                    "\n" +
+                    "Tetap Percaya Diri dengan Vitiligo\n" +
+                    "Kondisi kulit belang akibat vitiligo tidak seharusnya menurunkan rasa percaya diri. Pasalnya kamu tetap bisa beraktivitas dan produktif dengan kondisi tersebut. Hal yang perlu dilakukan adalah meyakinkan diri bahwa kecantikan bukan terbatas pada kulit, melainkan juga kebaikan hati sambil berupaya melakukan pengobatan.\n" +
+                    "Pengobatan vitiligo bertujuan mengembalikan warna kulit semula. Caranya dengan tanning lotion untuk menggelapkan warna kulit. Atau, dokter mungkin menyarankan pengidap vitiligo memakai tabir surya dengan SPF minimal 30. Tabir surya berfungsi melindungi kulit dan mencegah kerusakan kulit yang lebih parah akibat paparan sinar UV matahari. Jika cara ini belum efektif, dokter menggunakan metode lain untuk mengobati vitiligo.\n" +
+                    "1. Konsumsi Obat. Beberapa obat yang bisa dikonsumsi untuk mengembalikan warna kulit adalah golongan kortikosteroid oles, salep yang mengandung tacrolimus, dan losion yang mengandung hydroquinone.\n" +
+                    "2. Terapi Sinar UV. Metode ini disebut juga fototerapi, dilakukan jika vitiligo telah menyebar luas dan tidak bisa diatasi dengan obat oles. Fototerapi menggunakan sinar UV A dan B yang diarahkan ke area kulit terinfeksi. Pengidap vitiligo diberi psoralen pada kulit agar sensitif pada sinar UV. Dibutuhkan tiga kali terapi dalam seminggu selama 6-12 bulan. Metode ini bisa dikombinasikan dengan terapi laser serta obat prednisolone, vitamin D jenis calcipotriol, dan obat yang memengaruhi daya tahan tubuh seperti azathioprine.\n" +
+                    "3. Prosedur Bedah. Dilakukan jika fototerapi tidak efektif mengobati vitiligo. Tujuannya untuk mengembalikan warna kulit semula dengan metode cangkok kulit, blister grafting, dan mikropigmentasi.\n" +
+                    "\n" +
+                    "Itulah fakta vitiligo yang perlu diketahui.", "Redaksi Halodoc", "https://d1bpj0tv6vfxyp.cloudfront.net/articles/1ae56e58-9e8c-4d38-a340-985b3bb27275_article_image_url.webp"
+        ),
+        arrayOf( "Mengidap Vitiligo, Ini Penanganan yang Bisa Dilakukan", "29 April 2020",
+            "Perawatan vitiligo didasarkan pada perbaikan penampilan kulit dengan mengembalikan warnanya. Efek pengobatannya tidak permanen dan tidak selalu dapat mengendalikan penyebaran. Dokter dapat merekomendasikan pemberian obat-obatan dan perlindungan terhadap paparan sinar matahari.\n" +
+                    "- Perlindungan dari Matahari. Sinar matahari adalah risiko yang harus dihindari bagi pengidap vitiligo. Ketika kulit terpapar sinar matahari, akan terbentuk pigmen kulit melanin untuk melindungi dari sinar UV. Namun, pengidap vitiligo tidak memiliki cukup melanin, sehingga kulit tidak mampu terlindungi dari paparan sinar UV. Sebagai tindakan perlindungan, gunakan pelembap dengan tingkat SPF yang tinggi.\n" +
+                    "- Vitamin D. Jika kulit tidak terpapar sinar matahari, ada peningkatan risiko kekurangan vitamin D. Pasalnya, vitamin D sangat penting untuk menjaga kesehatan tulang dan gigi. Sinar matahari adalah sumber vitamin D paling utama, meski bisa juga diperoleh dari minyak ikan. Meski begitu, mungkin juga diperlukan suplemen asupan vitamin D.\n" +
+                    "- Kortikosteroid Topikal. Ini merupakan jenis obat yang mengandung steroid. Obat ini dioleskan ke kulit dalam bentuk krim atau salep. Biasanya, bercak putih berhenti menyebar dan warna kulit asli di beberapa bagian tubuh akan kembali. Kortikosteroid topikal dapat diresepkan untuk orang dewasa, jika memiliki vitiligo nonsegmental kurang dari 10 persen, tidak sedang hamil untuk wanita, dan ingin melakukan perawatan lanjutan. Obat salep kortikosteroid topikal bisa diaplikasikan pada wajah, tetapi tetap harus cermat dalam memilih dan menggunakan obat jenis ini di wajah.\n" +
+                    "- Obat yang Memengaruhi Sistem Kekebalan Tubuh. Selain kortikosteroid, salep inhibitor kalsineurin seperti tacrolimus atau pimecrolimus mungkin juga efektif untuk orang-orang yang mengalami depigmentasi kecil, terutama pada wajah dan leher. Namun, Badan Pengawas Obat dan Makanan Amerika Serikat (FDA) memperingatkan tentang adanya kemungkinan obat-obatan tersebut dapat meningkatkan risiko limfoma dan kanker kulit.\n" +
+                    "\n" +
+                    "Itu tadi jenis penanganan vitiligo", "dr. Rizal Fadli", "https://d1bpj0tv6vfxyp.cloudfront.net/articles/a431608f-cd5e-4e17-b8a2-2936558bcfbf_article_image_url.webp"
+        ),
+        arrayOf( "Perbedaan Gejala Vitiligo pada Anak dan Orang Dewasa", "03 Februari 2021",
+            "Gejala Vitiligo pada Anak dan Orang Dewasa Berbeda\n" +
+                    "Pada anak-anak, vitiligo biasanya mulai muncul pada usia 4-5 tahun. Meski begitu, pada beberapa kasus yang jarang, anak di bawah usia 1 tahun juga bisa mengalaminya. Lalu, apa bedanya gejala vitiligo pada anak dan orang dewasa?\n" +
+                    "\n" +
+                    "Perbedaan pertama, vitiligo pada orang dewasa bisa terjadi pada siapa saja, pria ataupun wanita. Namun, pada anak-anak, vitiligo lebih sering menyerang anak perempuan ketimbang laki-laki.\n" +
+                    "Kemudian, perbedaan kedua adalah pada jenis vitiligo yang diidap. Jenis vitiligo yang sering dialami anak adalah vitiligo segmental, sedangkan pada orang dewasa yang lebih sering terjadi adalah vitiligo non-segmental.\n" +
+                    "\n" +
+                    "Vitiligo segmental adalah jenis vitiligo yang ditandai dengan munculnya bercak putih pada satu area tubuh saja. Vitiligo jenis ini sering disebut istilah vitiligo lokal. Sementara itu, vitiligo non-segmental adalah jenis yang paling umum terjadi, ditandai dengan menyebarnya bercak di banyak bagian tubuh.\n" +
+                    "Berikut ini gejala vitiligo jenis segmental, yaitu:\n" +
+                    "- Perubahan warna kulit hanya terjadi di satu bagian tubuh saja, seperti kaki, wajah, atau lengan.\n" +
+                    "- Mengalami tumbuhnya uban dini pada rambut, bulu mata, atau alis.\n" +
+                    "- Biasanya terjadi pada anak-anak atau orang yang berusia muda.\n" +
+                    "- Perubahan warna kulit sering kali berlangsung selama sekitar satu tahun, kemudian berhenti meluas.\n" +
+                    "\n" +
+                    "Sementara itu, gejala vitiligo jenis non-segmental adalah:\n" +
+                    "- Perubahan warna kulit terjadi di kedua sisi tubuh, seperti kedua tangan atau kedua lutut.\n" +
+                    "- Awalnya, bercak putih muncul dengan bentuk yang simetris.\n" +
+                    "- Hilangnya warna kulit dimulai dari ujung jari, pergelangan tangan, hingga lengan.\n" +
+                    "- Warna kulit hilang dengan cepat, lalu berhenti untuk sementara waktu, dan bisa mulai kembali.\n" +
+                    "- Warna kulit yang hilang cenderung berkembang dan meluas.\n" +
+                    "\n" +
+                    "Penyebab Vitiligo pada Anak\n" +
+                    "Vitiligo pada anak juga diduga sebagai kelainan genetik. Umumnya, anak yang mengalami vitiligo memiliki anggota keluarga dengan riwayat vitiligo juga. Namun, perlu diketahui bahwa vitiligo bukan penyakit menular. Vitiligo juga bukan penyakit berbahaya yang bisa mengancam nyawa.\n" +
+                    "\n" +
+                    "Jika ibu menjumpai adanya bercak putih pada tubuh anak, dan mencurigai itu gejala vitiligo, sebaiknya bawa anak untuk diperiksa oleh dokter.", "dr. Fadhli Rizal Makarim", "https://d1bpj0tv6vfxyp.cloudfront.net/articles/825124_2-2-2021_16-27-0.webp"
         )
     )
 

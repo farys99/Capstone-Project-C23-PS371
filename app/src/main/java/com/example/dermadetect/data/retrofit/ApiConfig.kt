@@ -23,7 +23,7 @@ class ApiConfig {
                 .build()
 
             val retrofit = Retrofit.Builder()
-                .baseUrl(ENDPOINT)
+                .baseUrl(URL_BASE)
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build()
@@ -31,6 +31,6 @@ class ApiConfig {
             return retrofit.create(ApiService::class.java)
         }
 
-        private const val ENDPOINT = "http://104.197.16.252/"
+        private const val URL_BASE = "http://104.197.16.252/"
     }
 }

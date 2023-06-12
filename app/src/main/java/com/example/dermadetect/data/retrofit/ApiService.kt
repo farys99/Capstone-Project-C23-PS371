@@ -1,6 +1,7 @@
 package com.example.dermadetect.data.retrofit
 
 import com.example.dermadetect.data.response.ResultResponse
+import com.example.dermadetect.data.response.UpResponse
 import com.example.dermadetect.data.response.UploadResponse
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
@@ -17,11 +18,11 @@ interface ApiService {
     @POST("/upload")
     fun uploadPicture(
         @Part file: MultipartBody.Part,
-        @Part("kind_model") typeDetection: RequestBody
-    ): Call<UploadResponse>
+//        @Part("kind_model") typeDetection: RequestBody
+    ): Call<UpResponse>
 
-    @GET("/result")
-    fun getResult(
-        @Query("id") id: String?
-    ): Call<ResultResponse>
+//    @GET("/result")
+//    fun getResult(
+//        @Query("id") id: String?
+//    ): Call<ResultResponse>
 }
