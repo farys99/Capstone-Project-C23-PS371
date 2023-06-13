@@ -36,4 +36,7 @@
     <string name="no">No</string>
     <string name="yes">Yes</string>
     <string name="message_alertDialog">Do you really want to proceed with uploading this photo?</string>
+    <string name="title_isError">Error</string>
+    <string name="message_isError">There appears to be an issue. Please try again</string>
+    <string name="button_reload">Reload</string>
 </resources>

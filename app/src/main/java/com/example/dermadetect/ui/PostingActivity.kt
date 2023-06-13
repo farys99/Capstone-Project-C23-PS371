@@ -58,7 +58,8 @@ class PostingActivity : AppCompatActivity() {
         if(!allPermissionsGranted()){
             ActivityCompat.requestPermissions(
                 this,
-                CAMERA_PERMISSION, CODE_PERMISSION
+                CAMERA_PERMISSION,
+                CODE_PERMISSION
             )
         }
         else{
@@ -80,6 +81,7 @@ class PostingActivity : AppCompatActivity() {
                 setAspectRatio(aspectRatioX = 1, aspectRatioY = 1)
                 setAllowRotation(allowRotation = false)
                 setAllowFlipping(allowFlipping = false)
+                setSkipEditing(skipEditing = true)
             }
         )
     }

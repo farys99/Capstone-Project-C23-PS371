@@ -1,10 +1,12 @@
 package com.example.dermadetect.ui
 
+import android.content.Context
 import android.content.Intent
 import android.graphics.BitmapFactory
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModelProvider
 import com.example.dermadetect.R
@@ -13,6 +15,11 @@ import com.example.dermadetect.util.rotateBitmap
 import com.example.dermadetect.util.rotateFileImage
 import com.example.dermadetect.util.uriToFile
 import com.example.dermadetect.viewmodel.ReviewViewModel
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.MediaType.Companion.toMediaTypeOrNull
+import okhttp3.MultipartBody
+import okhttp3.RequestBody.Companion.asRequestBody
+import okhttp3.RequestBody.Companion.toRequestBody
 import java.io.File
 
 class ReviewActivity : AppCompatActivity() {
@@ -25,6 +32,9 @@ class ReviewActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        supportActionBar?.hide()
+
         binding = ActivityReviewBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -73,7 +83,78 @@ class ReviewActivity : AppCompatActivity() {
         }
     }
 
-    private fun uploadPhoto(){}
+    private fun getDetectionFromMain():String?{
+        val sharedPreferences = getSharedPreferences(MainActivity.MENU_SKIN_PROBLEM, Context.MODE_PRIVATE)
+        return sharedPreferences.getString(MainActivity.KEY_SKIN_PROBLEM, null)
+    }
+
+    private fun uploadPhoto(){
+        val item = globalFile as File
+        val mainDetection = getDetectionFromMain() as String
+
+        val sliceMainDetection = mainDetection.toRequestBody("text/plain".toMediaType())
+        val reqImageFile = item.asRequestBody("image/jpeg".toMediaTypeOrNull())
+        val multiPartBody : MultipartBody.Part = MultipartBody.Part.createFormData(
+            PATH_PICTURE,
+            item.name,
+            reqImageFile
+        )
+
+        reviewViewModel.uploadPhoto(multiPartBody)
+        reviewViewModel.isLoading.observe(this@ReviewActivity){
+            it.getContentIfNotHandled()?.let {
+                result -> isLoading(result)
+            }
+        }
+        reviewViewModel.isError.observe(this@ReviewActivity){
+            it.getContentIfNotHandled()?.let {
+                    isError()
+            }
+        }
+        reviewViewModel.isSuccess.observe(this@ReviewActivity){
+            it.getContentIfNotHandled()?.let {
+                /**do something**/
+                isSuccess("1")
+            }
+        }
+    }
+
+    private fun isLoading(loading : Boolean){
+        if(loading){
+            val dialog = AlertDialog.Builder(this)
+            dialog.apply {
+                setView(
+                    View.inflate(
+                        this@ReviewActivity,R.layout.layout_progressbar, null
+                    )
+                )
+                setCancelable(false)
+            }
+            alertDialog = dialog.create()
+            alertDialog!!.show()
+        }else{
+            alertDialog?.dismiss()
+        }
+    }
+
+    private fun isError(){
+        AlertDialog.Builder(this).apply {
+            setTitle(getString(R.string.title_isError))
+            setMessage(getString(R.string.message_isError))
+            setPositiveButton(getString(R.string.button_reload)) { _, _ ->
+                uploadPhoto()
+            }
+            create()
+            show()
+        }
+    }
+
+    private fun isSuccess(keyDetection:String?){
+        val intent = Intent(this@ReviewActivity, SummaryActivity::class.java)
+        intent.putExtra(TOKEN_DETECTION, keyDetection)
+        startActivity(intent)
+        finish()
+    }
 
     private fun setPreviewImage(){
         val result = intent.getIntExtra(TOKEN_RESULT, 0)
