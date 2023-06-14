@@ -74,10 +74,10 @@ class ReviewActivity : AppCompatActivity() {
         AlertDialog.Builder(this).apply {
             setTitle(getString(R.string.title_alertDialog))
             setMessage(getString(R.string.message_alertDialog))
-            setPositiveButton(getString(R.string.yes)) { _, _ ->
+            setPositiveButton(getString(R.string.ya)) { _, _ ->
                 uploadPhoto()
             }
-            setNegativeButton(getString(R.string.no)) { dialog, _ -> dialog.cancel() }
+            setNegativeButton(getString(R.string.tidak)) { dialog, _ -> dialog.cancel() }
             create()
             show()
         }

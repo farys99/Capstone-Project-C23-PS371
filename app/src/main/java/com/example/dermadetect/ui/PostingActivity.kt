@@ -4,11 +4,13 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.canhub.cropper.CropImageContract
 import com.canhub.cropper.options
+import com.example.dermadetect.R
 import com.example.dermadetect.databinding.ActivityPostingBinding
 
 
@@ -43,6 +45,11 @@ class PostingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityPostingBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val btnBack : ImageView = findViewById(R.id.btn_back)
+        btnBack.setOnClickListener(){
+            finish()
+        }
 
         binding.btnCamera.setOnClickListener{
             cameraPermission()

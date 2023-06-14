@@ -50,7 +50,7 @@
                 android:backgroundTint="@color/white"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="@string/try_again"
+                android:text="@string/coba_lagi"
                 android:textAllCaps="false"
                 android:textSize="14sp"
                 app:cornerRadius="12dp"
@@ -75,7 +75,7 @@
                 android:layout_marginBottom="12dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="@string/send"
+                android:text="@string/unggah"
                 android:textAllCaps="false"
                 android:textSize="14sp"
                 app:cornerRadius="12dp" />
