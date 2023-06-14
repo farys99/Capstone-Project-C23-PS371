@@ -7,7 +7,7 @@
     android:layout_marginEnd="16dp"
     app:cardCornerRadius="8dp">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -21,6 +21,9 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:src="@drawable/dummy_image_landscape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/RoundImageView" />
 
         <TextView
@@ -29,22 +32,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="4dp"
-            android:text="@string/dummy_title_article" />
+            android:maxLines="3"
+            android:text="@string/dummy_title_article"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_article" />
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
 
             <TextView
                 android:id="@+id/tv_author"
                 style="@style/Content"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
                 android:maxLines="1"
                 android:text="@string/dummy_author_article"
+                android:textAlignment="textStart"
                 android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="@id/tv_date"
                 app:layout_constraintStart_toStartOf="parent"
@@ -53,11 +65,12 @@
             <TextView
                 android:id="@+id/tv_date"
                 style="@style/Content"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
+                android:ellipsize="end"
                 android:maxLines="1"
                 android:text="@string/dummy_date_article"
+                android:textAlignment="textEnd"
                 android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/tv_author" />
@@ -65,7 +78,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </androidx.cardview.widget.CardView>
