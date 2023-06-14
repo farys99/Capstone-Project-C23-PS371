@@ -12,4 +12,8 @@
     <style name="Button">
         <item name="backgroundTint">@color/blue_500</item>
     </style>
+    <style name="Semibold">
+        <item name="fontFamily">@font/montserratsemibold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
 </resources>

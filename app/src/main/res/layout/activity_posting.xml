@@ -6,98 +6,125 @@
     android:layout_height="match_parent"
     tools:context=".ui.PostingActivity">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/purple_30"
+        android:layout_height="20dp"
+        android:backgroundTint="@color/cream_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/topCard"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:backgroundTint="#FFCCA9"
+        app:cardCornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            style="@style/Header"
-            android:layout_width="wrap_content"
+            style="@style/Semibold"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/add_story" />
-    </androidx.appcompat.widget.Toolbar>
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="8dp"
+            android:text="Apakah Kamu Sudah Memeriksa Kesehatan Kulit Kamu ?"
+            android:textSize="30sp" />
+    </androidx.cardview.widget.CardView>
 
-    <androidx.core.widget.NestedScrollView
-        android:id="@+id/nestedScrollView"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cameraCard"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="190dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="24dp"
+        android:backgroundTint="#FFFF"
+        app:cardCornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@id/topCard">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="20dp">
+            android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/iv_preview"
-                android:layout_width="279dp"
-                android:layout_height="302dp"
-                android:layout_marginTop="16dp"
-                android:src="@drawable/animation_data_min"
-                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/image1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cameraillustration"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="48dp"
-                android:text="@string/select_image"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/iv_preview" />
-
             <Button
                 android:id="@+id/btn_camera"
-                style="@style/Button"
-                android:layout_width="wrap_content"
+                style="@style/Semibold"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="64dp"
-                android:layout_marginTop="8dp"
-                android:text="@string/camera"
-                android:textColor="@color/black"
+                android:layout_marginEnd="24dp"
+                android:backgroundTint="@color/green_10"
+                android:text="KAMERA"
+                app:layout_constraintBottom_toBottomOf="@id/image1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/image1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        style="@style/Semibold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ATAU"
+        app:layout_constraintBottom_toTopOf="@id/galleryCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cameraCard" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/galleryCard"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cameraCard"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/galleryillustration"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <Button
                 android:id="@+id/btn_gallery"
-                style="@style/Button"
-                android:layout_width="wrap_content"
+                style="@style/Semibold"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
-                android:text="@string/gallery"
-                android:textColor="@color/black"
-                app:layout_constraintBottom_toBottomOf="@+id/btn_camera"
-                app:layout_constraintEnd_toEndOf="@+id/iv_preview"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toEndOf="@+id/btn_camera"
-                app:layout_constraintTop_toTopOf="@+id/btn_camera"
-                app:layout_constraintVertical_bias="1.0" />
+                android:layout_marginEnd="24dp"
+                android:backgroundTint="@color/green_10"
+                android:text="GALERI"
+                app:layout_constraintBottom_toBottomOf="@id/image2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/image2" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </androidx.core.widget.NestedScrollView>
-
-    <ProgressBar
-        android:id="@+id/layout_loading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
