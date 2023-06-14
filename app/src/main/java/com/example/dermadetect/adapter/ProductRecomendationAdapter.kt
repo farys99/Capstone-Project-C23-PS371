@@ -7,9 +7,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.dermadetect.R
 import com.example.dermadetect.data.response.ProductList
-import com.example.dermadetect.databinding.ItemProductRecomendationBinding
+import com.example.dermadetect.databinding.ItemProductBinding
 
-class ProductRecomendationAdapter : RecyclerView.Adapter<ProductRecomendationAdapter.ViewHolder>(){
+class ProductAdapter : RecyclerView.Adapter<ProductAdapter.ViewHolder>(){
 
     private val listProduct = ArrayList<ProductList>()
 
@@ -23,7 +23,7 @@ class ProductRecomendationAdapter : RecyclerView.Adapter<ProductRecomendationAda
         parent: ViewGroup,
         viewType: Int
     ): ViewHolder {
-        val view = ItemProductRecomendationBinding.inflate(
+        val view = ItemProductBinding.inflate(
             LayoutInflater.from(parent.context), parent, false
         )
         return ViewHolder(view)
@@ -35,20 +35,19 @@ class ProductRecomendationAdapter : RecyclerView.Adapter<ProductRecomendationAda
 
     override fun getItemCount(): Int = listProduct.size
 
-    class ViewHolder(private val view: ItemProductRecomendationBinding) : RecyclerView.ViewHolder(view.root){
+    class ViewHolder(private val view: ItemProductBinding) : RecyclerView.ViewHolder(view.root){
 
         fun binding(listProduct: ProductList){
             with(view){
-                headlineProduct.text = listProduct.name
+                titleProduct.text = listProduct.name
+//                contentProduct.text = listProduct.
 
                 Glide.with(itemView.context)
                     .load(listProduct.photo)
                     .placeholder(R.drawable.baseline_insert_photo_24_2)
-                    .into(imageProduct)
+                    .into(ivProduct)
             }
         }
 
     }
-
-
 }
