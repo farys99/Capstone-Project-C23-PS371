@@ -12,64 +12,70 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="380dp"
         android:layout_height="match_parent"
-        android:layout_marginTop="10dp"
         android:padding="10dp">
 
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/iv_article"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginHorizontal="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:src="@drawable/article_preview"
+            android:src="@drawable/dummy_thumbnail_article"
             app:shapeAppearanceOverlay="@style/RoundImageView"
             />
 
-        <LinearLayout
-            android:layout_width="wrap_content"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
+            android:layout_marginStart="24dp"
             android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="@+id/iv_article"
+            app:layout_constraintBottom_toBottomOf="@id/iv_article"
             app:layout_constraintStart_toEndOf="@id/iv_article"
-            app:layout_constraintTop_toTopOf="@+id/iv_article">
+            app:layout_constraintEnd_toEndOf="parent"
+            >
 
             <TextView
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                style="@style/Content"
                 android:layout_marginTop="2dp"
                 android:id="@+id/tv_date"
                 android:layout_width="213dp"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:maxLines="1"
-                android:textColor="@color/black"
                 android:textSize="12sp"
-                android:fontFamily="@font/montserratregular"
                 tools:text="@string/dummy_date_article" />
 
             <TextView
+                app:layout_constraintTop_toBottomOf="@id/tv_date"
+                app:layout_constraintStart_toStartOf="@id/tv_date"
+                style="@style/Semibold"
                 android:id="@+id/tv_title"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:ellipsize="end"
-                android:fontFamily="@font/montserratsemibold"
                 android:maxLines="2"
-                android:textColor="@color/black"
-                android:textSize="14sp"
                 tools:text="@string/dummy_title_article" />
 
             <TextView
-                android:fontFamily="@font/montserratregular"
+                app:layout_constraintTop_toBottomOf="@id/tv_title"
+                app:layout_constraintEnd_toEndOf="@id/tv_title"
+                style="@style/Content"
                 android:id="@+id/tv_author"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
                 android:ellipsize="end"
+                android:layout_marginTop="2dp"
                 android:maxLines="1"
                 android:textAlignment="textEnd"
-                android:textColor="@color/black"
                 android:textSize="12sp"
                 tools:text="@string/dummy_author_article" />
-        </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>

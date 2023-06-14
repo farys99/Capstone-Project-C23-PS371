@@ -19,7 +19,7 @@
             android:layout_margin="20dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/baseline_insert_photo_24_2"
+            android:src="@drawable/baseline_insert_photo_24_black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"

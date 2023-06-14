@@ -53,7 +53,7 @@
         android:layout_height="190dp"
         android:layout_marginHorizontal="16dp"
         android:layout_marginVertical="24dp"
-        android:backgroundTint="#FFFF"
+        android:backgroundTint="@color/white"
         app:cardCornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -78,7 +78,6 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="24dp"
-                android:backgroundTint="@color/green_10"
                 android:text="@string/kamera"
                 app:layout_constraintBottom_toBottomOf="@id/image1"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -105,7 +104,7 @@
         android:layout_height="190dp"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="60dp"
-        android:backgroundTint="#FFFFFF"
+        android:backgroundTint="@color/white"
         app:cardCornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -131,14 +130,10 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="24dp"
-                android:backgroundTint="@color/green_10"
                 android:text="@string/galeri"
                 app:layout_constraintBottom_toBottomOf="@id/image2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/image2" />
-
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

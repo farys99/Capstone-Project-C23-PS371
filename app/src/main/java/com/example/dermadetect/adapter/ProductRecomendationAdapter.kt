@@ -44,7 +44,7 @@ class ProductAdapter : RecyclerView.Adapter<ProductAdapter.ViewHolder>(){
 
                 Glide.with(itemView.context)
                     .load(listProduct.photo)
-                    .placeholder(R.drawable.baseline_insert_photo_24_2)
+                    .placeholder(R.drawable.baseline_insert_photo_24_black)
                     .into(ivProduct)
             }
         }
