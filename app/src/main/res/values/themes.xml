@@ -16,4 +16,9 @@
         <item name="fontFamily">@font/montserratsemibold</item>
         <item name="android:textColor">@color/black</item>
     </style>
+    <style name="RoundImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+        <item name="color">@color/white</item>
+    </style>
 </resources>

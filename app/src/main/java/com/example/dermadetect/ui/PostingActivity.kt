@@ -9,7 +9,6 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.canhub.cropper.CropImageContract
 import com.canhub.cropper.options
-import com.example.dermadetect.R
 import com.example.dermadetect.databinding.ActivityPostingBinding
 
 
@@ -27,7 +26,7 @@ class PostingActivity : AppCompatActivity() {
             if (!allPermissionsGranted()) {
                 Toast.makeText(
                     this,
-                    getString(R.string.denied_access_permission),
+                    getString(com.example.dermadetect.R.string.denied_access_permission),
                     Toast.LENGTH_SHORT
                 ).show()
                 finish()

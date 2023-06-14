@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="120dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="20dp"
+    app:strokeWidth="1dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iv_article"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/article_preview"
+            app:shapeAppearanceOverlay="@style/RoundImageView"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toEndOf="@id/iv_article"
+            app:layout_constraintTop_toTopOf="@+id/iv_article">
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:id="@+id/tv_date"
+                android:layout_width="213dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:fontFamily="@font/montserratregular"
+                tools:text="10 januari 2023" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/montserratsemibold"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:text="Cara mencerahkan bapakmu" />
+
+            <TextView
+                android:fontFamily="@font/montserratregular"
+                android:id="@+id/tv_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                tools:text="Sholeh Al Farys" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
