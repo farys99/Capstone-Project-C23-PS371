@@ -39,4 +39,5 @@
     <string name="title_isError">Error</string>
     <string name="message_isError">There appears to be an issue. Please try again</string>
     <string name="button_reload">Reload</string>
+    <string name="apakah_kamu">Apakah Kamu Sudah Memeriksa Kesehatan Kulit Kamu ?</string>
 </resources>

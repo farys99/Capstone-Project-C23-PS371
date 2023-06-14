@@ -31,7 +31,7 @@
             android:layout_marginHorizontal="24dp"
             android:layout_marginTop="40dp"
             android:layout_marginBottom="8dp"
-            android:text="Apakah Kamu Sudah Memeriksa Kesehatan Kulit Kamu ?"
+            android:text="@string/apakah_kamu"
             android:textSize="30sp" />
     </androidx.cardview.widget.CardView>
 
