@@ -18,8 +18,7 @@ class DetailArticleActivity : AppCompatActivity() {
 
         val btnBack : ImageView = findViewById(R.id.btn_back)
         btnBack.setOnClickListener(){
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            finish()
         }
 
         val tvHeadline : TextView = findViewById(R.id.tv_title)
