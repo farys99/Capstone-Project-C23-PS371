@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="24dp"
                 android:layout_marginTop="40dp"
-                android:text="Apakah Kamu Sudah Memeriksa Kesehatan Kulit Kamu ?"
+                android:text="@string/apakah_kamu"
                 android:textSize="30sp" />
 
             <androidx.cardview.widget.CardView
@@ -70,7 +70,7 @@
                         android:layout_marginEnd="10dp"
                         android:fontFamily="@font/montserratsemibold"
                         android:gravity="center"
-                        android:text="Scan Untuk Melihat Kesehatan Kulitmu"
+                        android:text="@string/scan_untuk_melihat"
                         android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>

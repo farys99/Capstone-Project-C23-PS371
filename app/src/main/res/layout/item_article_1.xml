@@ -31,7 +31,7 @@
             android:layout_marginHorizontal="8dp"
             android:layout_marginBottom="4dp"
             android:fontFamily="@font/montserratsemibold"
-            android:text="@string/article_dummy_title" />
+            android:text="@string/dummy_title_article" />
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -43,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:text="Sholeh al Farys"
+                android:text="@string/dummy_author_article"
                 android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="@id/tv_date"
                 app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                android:text="12-12-2012"
+                android:text="@string/dummy_date_article"
                 android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/tv_author" />

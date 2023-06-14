@@ -44,7 +44,7 @@
                 style="@style/Semibold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Penyakit Cacar Air"
+                android:text="@string/dummy_title_penyakit"
                 android:textSize="25sp"
                 android:layout_marginBottom="24dp"
                 />
@@ -75,7 +75,7 @@
                 style="@style/Content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/deskripsi_penyakit" />
+                android:text="@string/dummy_deskripsi_penyakit" />
         </ScrollView>
 
     </androidx.cardview.widget.CardView>
@@ -87,7 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginBottom="8dp"
-        android:text="TIPS"
+        android:text="@string/tips"
         android:textSize="21sp"
         app:layout_constraintBottom_toTopOf="@id/btn_rekomendasi"
         app:layout_constraintEnd_toEndOf="parent"
@@ -100,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginBottom="16dp"
-        android:text="REKOMENDASI"
+        android:text="@string/rekomendasi"
         android:textSize="21sp"
         app:layout_constraintBottom_toBottomOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

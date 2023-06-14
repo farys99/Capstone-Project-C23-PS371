@@ -7,10 +7,6 @@
 
     <style name="Theme.DermaDetect" parent="Base.Theme.DermaDetect" />
 
-    <style name="Header">
-        <item name="android:textStyle">bold</item>
-    </style>
-
     <style name="GreenButton">
         <item name="backgroundTint">@color/green_10</item>
         <item name="android:textColor">@color/black</item>

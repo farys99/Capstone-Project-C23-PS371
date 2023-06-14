@@ -45,7 +45,7 @@
                 android:textColor="@color/black"
                 android:textSize="12sp"
                 android:fontFamily="@font/montserratregular"
-                tools:text="10 januari 2023" />
+                tools:text="@string/dummy_date_article" />
 
             <TextView
                 android:id="@+id/tv_title"
@@ -56,7 +56,7 @@
                 android:maxLines="2"
                 android:textColor="@color/black"
                 android:textSize="14sp"
-                tools:text="@string/article_dummy_title" />
+                tools:text="@string/dummy_title_article" />
 
             <TextView
                 android:fontFamily="@font/montserratregular"
@@ -69,7 +69,7 @@
                 android:textAlignment="textEnd"
                 android:textColor="@color/black"
                 android:textSize="12sp"
-                tools:text="Sholeh Al Farys" />
+                tools:text="@string/dummy_author_article" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>

@@ -54,7 +54,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="24dp"
-                    android:text="Penyakit Cacar Air"
+                    android:text="@string/dummy_title_penyakit"
                     android:textSize="25sp" />
 
             </LinearLayout>
@@ -82,7 +82,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp"
-                    android:text="Penyebab"
+                    android:text="@string/penyebab"
                     android:textSize="20dp" />
 
                 <TextView
@@ -91,7 +91,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp"
-                    android:text="@string/deskripsi_penyakit" />
+                    android:text="@string/dummy_penyebab_penyakit" />
 
             </LinearLayout>
 
@@ -118,7 +118,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp"
-                    android:text="Pengobatan"
+                    android:text="@string/pengobatan"
                     android:textSize="20dp" />
 
                 <TextView
@@ -127,7 +127,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp"
-                    android:text="@string/deskripsi_penyakit" />
+                    android:text="@string/dummy_pengobatan_penyakit" />
 
 
             </LinearLayout>
@@ -156,7 +156,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="4dp"
-                    android:text="Pencegahan"
+                    android:text="@string/pencegahan"
                     android:textSize="20dp" />
 
                 <TextView
@@ -164,7 +164,7 @@
                     style="@style/Content"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/deskripsi_penyakit" />
+                    android:text="@string/dummy_pencegahan_penyakit" />
 
 
             </LinearLayout>
