@@ -40,4 +40,8 @@
     <string name="message_isError">There appears to be an issue. Please try again</string>
     <string name="button_reload">Reload</string>
     <string name="apakah_kamu">Apakah Kamu Sudah Memeriksa Kesehatan Kulit Kamu ?</string>
+    <string name="article_dummy_title">Cara Menyehatkan Kulit Secara Alami</string>
+    <string name="unggah_foto">Unggah Foto Kulitmu Dari Kamera Atau Galeri</string>
+    <string name="artikel_hari_ini">Artikel Hari Ini</string>
+    <string name="artikel_untuk_kamu">Artikel Untuk Kamu</string>
 </resources>

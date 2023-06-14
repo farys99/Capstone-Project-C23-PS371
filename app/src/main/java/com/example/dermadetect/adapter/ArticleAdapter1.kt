@@ -11,18 +11,17 @@ import com.bumptech.glide.Glide
 import com.example.dermadetect.R
 import com.example.dermadetect.data.localArticle.Article
 import com.example.dermadetect.ui.DetailArticleActivity
-import org.w3c.dom.Text
 
-class ArticleAdapter(private val listArticle : ArrayList<Article>): RecyclerView.Adapter<ArticleAdapter.ListViewHolder>(){
+class ArticleAdapter1(private val listArticle1 : ArrayList<Article>): RecyclerView.Adapter<ArticleAdapter1.ListViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
-        val view : View = LayoutInflater.from(parent.context).inflate(R.layout.item_article, parent, false)
+        val view : View = LayoutInflater.from(parent.context).inflate(R.layout.item_article_1, parent, false)
         return ListViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
         val context = holder.itemView.context
-        val args = listArticle[position]
+        val args = listArticle1[position]
 
         Glide.with(context)
             .load(args.image)
@@ -44,7 +43,7 @@ class ArticleAdapter(private val listArticle : ArrayList<Article>): RecyclerView
     }
 
     override fun getItemCount(): Int {
-        return listArticle.size
+        return listArticle1.size
     }
 
     class ListViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView){
@@ -52,7 +51,7 @@ class ArticleAdapter(private val listArticle : ArrayList<Article>): RecyclerView
         val imgPhoto: ImageView = itemView.findViewById(R.id.image_article)
         val tvHeadline : TextView = itemView.findViewById(R.id.tv_title)
         val tvDate : TextView = itemView.findViewById(R.id.tv_date)
-        val tvAuthor :TextView = itemView.findViewById(R.id.tv_author)
+        val tvAuthor : TextView = itemView.findViewById(R.id.tv_author)
     }
 
 }

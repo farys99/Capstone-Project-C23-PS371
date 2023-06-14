@@ -15,10 +15,10 @@ class DetailArticleActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_article)
 
-        val tvHeadline : TextView = findViewById(R.id.article_headline)
+        val tvHeadline : TextView = findViewById(R.id.tv_title)
         val tvDescription : TextView = findViewById(R.id.article_description)
-        val tvDate : TextView = findViewById(R.id.article_date)
-        val tvAuthor : TextView = findViewById(R.id.article_author)
+        val tvDate : TextView = findViewById(R.id.tv_date)
+        val tvAuthor : TextView = findViewById(R.id.tv_author)
         val imgDetail : ImageView = findViewById(R.id.article_image)
 
 
@@ -36,7 +36,6 @@ class DetailArticleActivity : AppCompatActivity() {
             .load(image)
             .apply(RequestOptions())
             .into(imgDetail)
-
     }
 
     companion object{

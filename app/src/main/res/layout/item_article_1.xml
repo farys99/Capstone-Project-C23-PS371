@@ -15,7 +15,7 @@
         android:orientation="vertical">
 
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/iv_article"
+            android:id="@+id/image_article"
             android:layout_width="200dp"
             android:layout_height="80dp"
             android:layout_gravity="center"
@@ -32,7 +32,7 @@
             android:layout_marginHorizontal="8dp"
             android:layout_marginBottom="4dp"
             android:fontFamily="@font/montserratsemibold"
-            android:text="Tips Menjaga Kesehatan Kulit no 20 Bikin Kaget!" />
+            android:text="@string/article_dummy_title" />
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
