@@ -1,13 +1,14 @@
 package com.example.dermadetect.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.example.dermadetect.R
-import com.example.dermadetect.databinding.ActivityDetailArticleBinding
 
 class DetailArticleActivity : AppCompatActivity() {
 
@@ -15,11 +16,17 @@ class DetailArticleActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_article)
 
+        val btnBack : ImageView = findViewById(R.id.btn_back)
+        btnBack.setOnClickListener(){
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
         val tvHeadline : TextView = findViewById(R.id.tv_title)
-        val tvDescription : TextView = findViewById(R.id.article_description)
+        val tvDescription : TextView = findViewById(R.id.tv_content)
         val tvDate : TextView = findViewById(R.id.tv_date)
         val tvAuthor : TextView = findViewById(R.id.tv_author)
-        val imgDetail : ImageView = findViewById(R.id.article_image)
+        val imgDetail : ImageView = findViewById(R.id.iv_article)
 
 
         val headline = intent.getStringExtra(EXTRA_HEADLINE)
@@ -37,6 +44,8 @@ class DetailArticleActivity : AppCompatActivity() {
             .apply(RequestOptions())
             .into(imgDetail)
     }
+
+
 
     companion object{
         const val EXTRA_HEADLINE = "extra_headline"

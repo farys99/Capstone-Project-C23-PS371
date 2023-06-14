@@ -141,7 +141,7 @@ class ReviewActivity : AppCompatActivity() {
         AlertDialog.Builder(this).apply {
             setTitle(getString(R.string.title_isError))
             setMessage(getString(R.string.message_isError))
-            setPositiveButton(getString(R.string.button_reload)) { _, _ ->
+            setPositiveButton(getString(R.string.reload)) { _, _ ->
                 uploadPhoto()
             }
             create()

@@ -16,7 +16,7 @@
         android:padding="10dp">
 
         <ImageView
-            android:id="@+id/image_article"
+            android:id="@+id/iv_article"
             android:layout_width="100dp"
             android:layout_height="100dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -32,8 +32,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
             android:orientation="vertical"
-            app:layout_constraintStart_toEndOf="@id/image_article"
-            app:layout_constraintTop_toTopOf="@+id/image_article">
+            app:layout_constraintStart_toEndOf="@id/iv_article"
+            app:layout_constraintTop_toTopOf="@+id/iv_article">
 
             <TextView
                 android:layout_marginTop="2dp"

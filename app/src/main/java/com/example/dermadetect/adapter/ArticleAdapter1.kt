@@ -48,7 +48,7 @@ class ArticleAdapter1(private val listArticle1 : ArrayList<Article>): RecyclerVi
 
     class ListViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView){
 
-        val imgPhoto: ImageView = itemView.findViewById(R.id.image_article)
+        val imgPhoto: ImageView = itemView.findViewById(R.id.iv_article)
         val tvHeadline : TextView = itemView.findViewById(R.id.tv_title)
         val tvDate : TextView = itemView.findViewById(R.id.tv_date)
         val tvAuthor : TextView = itemView.findViewById(R.id.tv_author)

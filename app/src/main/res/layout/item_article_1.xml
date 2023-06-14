@@ -5,8 +5,7 @@
     android:layout_height="180dp"
     android:layout_marginEnd="16dp"
     app:cardCornerRadius="8dp"
-    app:strokeColor="#8E472B"
-    app:strokeWidth="1dp"
+    android:layout_marginTop="4dp"
     >
 
     <LinearLayout
@@ -15,7 +14,7 @@
         android:orientation="vertical">
 
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/image_article"
+            android:id="@+id/iv_article"
             android:layout_width="200dp"
             android:layout_height="80dp"
             android:layout_gravity="center"

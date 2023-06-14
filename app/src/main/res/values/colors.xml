@@ -26,6 +26,9 @@
     <color name="purple_30">#917FB3</color>
 
     <color name="green_10">#91E988</color>
+    <color name="green_50">#00FF00</color>
+
     <color name="cream_10">#FFCCA9</color>
+    <color name="cream_50">#8E472B</color>
 
 </resources>

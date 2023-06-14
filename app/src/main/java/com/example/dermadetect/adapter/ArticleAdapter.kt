@@ -11,7 +11,6 @@ import com.bumptech.glide.Glide
 import com.example.dermadetect.R
 import com.example.dermadetect.data.localArticle.Article
 import com.example.dermadetect.ui.DetailArticleActivity
-import org.w3c.dom.Text
 
 class ArticleAdapter(private val listArticle : ArrayList<Article>): RecyclerView.Adapter<ArticleAdapter.ListViewHolder>(){
 
@@ -49,7 +48,7 @@ class ArticleAdapter(private val listArticle : ArrayList<Article>): RecyclerView
 
     class ListViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView){
 
-        val imgPhoto: ImageView = itemView.findViewById(R.id.image_article)
+        val imgPhoto: ImageView = itemView.findViewById(R.id.iv_article)
         val tvHeadline : TextView = itemView.findViewById(R.id.tv_title)
         val tvDate : TextView = itemView.findViewById(R.id.tv_date)
         val tvAuthor :TextView = itemView.findViewById(R.id.tv_author)
