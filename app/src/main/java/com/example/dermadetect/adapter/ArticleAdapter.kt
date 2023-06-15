@@ -55,3 +55,4 @@ class ArticleAdapter(private val listArticle : ArrayList<Article>): RecyclerView
     }
 
 }
+
