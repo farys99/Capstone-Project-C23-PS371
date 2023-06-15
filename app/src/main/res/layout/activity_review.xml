@@ -66,19 +66,21 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_process"
-                style="@style/GreenButton"
-                android:backgroundTint="@color/green_50"
+                style="@style/Semibold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="12dp"
                 android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/green_50"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="@string/unggah"
                 android:textAllCaps="false"
                 android:textSize="14sp"
-                app:cornerRadius="12dp" />
+                app:cornerRadius="12dp"
+                app:strokeColor="@color/green_10"
+                app:strokeWidth="1dp" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
