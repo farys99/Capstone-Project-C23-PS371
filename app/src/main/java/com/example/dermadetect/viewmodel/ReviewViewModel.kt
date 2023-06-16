@@ -23,12 +23,8 @@ class ReviewViewModel : ViewModel() {
     private val _isSuccess = MutableLiveData<Event<Boolean>>()
     val isSuccess: LiveData<Event<Boolean>> = _isSuccess
 
-//    private val _idDetection = MutableLiveData<String?>()
-//    val idDetection: LiveData<String?> = _idDetection
-
     fun uploadPhoto(
-        image: MultipartBody.Part,
-//        typeDetection: RequestBody
+        image: MultipartBody.Part
     ) {
         _isLoading.value = Event(true)
         val service =
@@ -41,9 +37,8 @@ class ReviewViewModel : ViewModel() {
                 _isLoading.value = Event(false)
                 if (response.isSuccessful) {
                     val responseBody = response.body()
-                    if (responseBody != null) {
+                    if (responseBody != null ) {
                         _isSuccess.value = Event(true)
-//                        _idDetection.value = responseBody.statusCode
                     }
                 } else {
                     _isError.value = Event(true)

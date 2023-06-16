@@ -8,7 +8,7 @@
     tools:context=".ui.ReviewActivity">
 
     <ImageView
-        android:id="@+id/iv_image"
+        android:id="@+id/iv_image_review"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:importantForAccessibility="no"
@@ -18,6 +18,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/baseline_insert_photo_24_white" />
+
+    <TextView
+        android:id="@+id/resultPredict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hallo"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_image_review"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039"
+        android:textSize="30dp"/>
 
     <LinearLayout
         android:id="@+id/bottom_action"
@@ -66,21 +80,20 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_process"
-                style="@style/Semibold"
+                style="@style/GreenButton"
+                android:backgroundTint="@color/green_50"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6dp"
                 android:layout_marginEnd="12dp"
                 android:layout_marginBottom="12dp"
-                android:backgroundTint="@color/green_50"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:text="@string/unggah"
                 android:textAllCaps="false"
                 android:textSize="14sp"
-                app:cornerRadius="12dp"
-                app:strokeColor="@color/green_10"
-                app:strokeWidth="1dp" />
+                app:cornerRadius="12dp" />
+
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
