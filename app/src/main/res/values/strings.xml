@@ -84,5 +84,6 @@
     <string name="pencegahan_seborrheic">Menjaga kulit tetap lembap, menggunakan tabir surya saat terpapar sinar matahari, dan menghindari perubahan yang tajam dalam rutinitas perawatan kulit.</string>
     <string name="pencegahan_tinea">Hindari berbagi barang pribadi, gunakan alas kaki yang sesuai, hindari kontak langsung dengan hewan peliharaan yang terinfeksi.</string>
     <string name="pencegahan_wartz">Jaga kebersihan pribadi, hindari kontak langsung dengan kulit yang terinfeksi dan cuci tangan secara teratur.</string>
+
     <string name="kulit_normal">Kulit normal</string>
 </resources>
