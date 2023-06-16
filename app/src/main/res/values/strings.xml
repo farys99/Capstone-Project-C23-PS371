@@ -42,6 +42,7 @@
     <string name="atau">ATAU</string>
     <string name="penyebab">Penyebab</string>
     <string name="pengobatan">Pengobatan</string>
+
     <string name="deskripsi_acne">Jerawat adalah kondisi umum yang terjadi pada kulit dan ditandai dengan munculnya noda merah, benjolan kecil, dan kadang-kadang pustula di area wajah, dada, dan punggung.</string>
     <string name="deskripsi_actinic">Aktinis keratosis (AK) adalah kondisi prakanker pada kulit yang disebabkan oleh kerusakan sinar matahari. AK ditandai dengan munculnya bercak merah atau berwarna kulit, kasar, kering, dan kadang-kadang bersisik pada area kulit yang sering terpapar sinar matahari, seperti wajah, lengan, atau punggung tangan.</string>
     <string name="deskripsi_atopic">Dermatitis atopik adalah kondisi kulit kronis yang ditandai dengan kulit kering, gatal, merah, bersisik, dan sering kali terjadi dalam bentuk ruam.</string>
@@ -51,7 +52,8 @@
     <string name="deskripsi_normal">Jenis kulit ini merupakan kondisi kulit yang memiliki keseimbangan antara jumlah kandungan air dan minyak sehingga kondisinya tidak terlalu kering tapi juga tidak terlalu berminyak.</string>
     <string name="deskripsi_seborrheic">Seborrheic keratosis adalah kondisi kulit yang umum dan non-kanker yang ditandai dengan pertumbuhan bintik-bintik atau plak kulit yang berwarna cokelat, hitam, atau keabu-abuan.</string>
     <string name="deskripsi_tinea">Tinea, juga dikenal sebagai kurap, adalah infeksi jamur pada kulit, rambut, atau kuku. Tinea ringworm merupakan salah satu jenis infeksi tinea yang ditandai dengan ruam berbentuk cincin yang gatal pada kulit.</string>
-    <string name="deskripsi_wart">Wart Molluscum adalah infeksi kulit yang disebabkan oleh virus molluscum contagiosum. Infeksi ini ditandai dengan munculnya benjolan kecil, bulat, dan berwarna kulit di permukaan kulit.</string>
+    <string name="deskripsi_wartz">Wart Molluscum adalah infeksi kulit yang disebabkan oleh virus molluscum contagiosum. Infeksi ini ditandai dengan munculnya benjolan kecil, bulat, dan berwarna kulit di permukaan kulit.</string>
+
 
     <string name="penyebab_acne">Jerawat biasanya terjadi akibat penyumbatan pori-pori oleh sebum (minyak kulit), sel-sel kulit mati, dan bakteri. Perubahan hormonal, produksi minyak berlebihan, faktor genetik, dan kebersihan kulit yang buruk dapat menjadi penyebab jerawat.</string>
     <string name="penyebab_actinic">Penyebab penyakit ini adalah pancaran sinar matahari yang berlebihan.</string>
@@ -63,7 +65,7 @@
     <string name="penyebab_tinea">Infeksi ini disebabkan oleh jamur dermatofit yang menginfeksi lapisan luar kulit.</string>
     <string name="penyebab_wartz">Virus molluscum contagiosum dapat menyebar melalui kontak langsung dengan kulit yang terinfeksi atau melalui kontak dengan benda-benda yang terkontaminasi, seperti handuk atau mainan.</string>
 
-    <string name="pengobatan_acne">Mengatasi penyebab jerawat dapat dilakukan dengan menggunakan skincare pribadi sesuai kebutuhan. Namun, jika dalam waktu 4–6 minggu tidak ada perbaikan atau justru memperparah kondisi sebelumnya seperti bernanah, ukuran jerawat membesar, dan disertai gejala klinis lainnya (seperti demam, nyeri sendi, anoreksia, dan lain-lain), pasien perlu berkonsultasi dan segera memeriksakan jerawat ke dokter.</string>
+    <string name="pengobatan_acne">Mengatasi penyebab jerawat dapat dilakukan dengan menggunakan skincare pribadi sesuai kebutuhan. Namun, jika dalam waktu 4-6 minggu tidak ada perbaikan atau justru memperparah kondisi sebelumnya seperti bernanah, ukuran jerawat membesar, dan disertai gejala klinis lainnya (seperti demam, nyeri sendi, anoreksia, dan lain-lain), pasien perlu berkonsultasi dan segera memeriksakan jerawat ke dokter.</string>
     <string name="pengobatan_actinic">Konsultasikan dengan dokter kulit segera karena penyakit ini cenderung parah dan membutuhkan tenaga ahli.</string>
     <string name="pengobatan_atopic">Perawatan kulit, obat-obatan topikal, menghindari infeksi.</string>
     <string name="pengobatan_eczema">Menggunakan kompres dingin, menghindari menggaruk kulit, konsultasikan dengan dokter kulit.</string>
@@ -82,6 +84,5 @@
     <string name="pencegahan_seborrheic">Menjaga kulit tetap lembap, menggunakan tabir surya saat terpapar sinar matahari, dan menghindari perubahan yang tajam dalam rutinitas perawatan kulit.</string>
     <string name="pencegahan_tinea">Hindari berbagi barang pribadi, gunakan alas kaki yang sesuai, hindari kontak langsung dengan hewan peliharaan yang terinfeksi.</string>
     <string name="pencegahan_wartz">Jaga kebersihan pribadi, hindari kontak langsung dengan kulit yang terinfeksi dan cuci tangan secara teratur.</string>
-    <string name="kulit_normal">Kulit anda normal, tolong rawat dengan baik</string>
-
+    <string name="kulit_normal">Kulit normal</string>
 </resources>

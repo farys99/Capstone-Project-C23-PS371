@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="20dp"
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="2dp"
     app:cardCornerRadius="30dp">
 
 
@@ -15,12 +16,10 @@
             android:id="@+id/iv_product"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_gravity="center"
             android:layout_margin="20dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:src="@drawable/baseline_insert_photo_24_black"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/RoundImageView" />
@@ -32,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="24dp"
             android:text="@string/dummy_title_product"
-            android:textSize="24dp"
+            android:textSize="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/iv_product"
             app:layout_constraintTop_toTopOf="@id/iv_product" />
@@ -44,10 +43,13 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:text="@string/dummy_content_product"
+            android:paddingBottom="16dp"
             android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="@id/title_product"
             app:layout_constraintStart_toStartOf="@id/title_product"
-            app:layout_constraintTop_toBottomOf="@id/title_product" />
+            app:layout_constraintTop_toBottomOf="@id/title_product"
+            />
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

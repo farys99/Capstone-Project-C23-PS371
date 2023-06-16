@@ -125,7 +125,7 @@ class SummaryActivity() : AppCompatActivity() {
 
     private fun wartzMolluscum(): String {
         val items = arrayOf(
-            getString(R.string.deskripsi_wart)
+            getString(R.string.deskripsi_wartz)
         )
         return items[0]
     }
